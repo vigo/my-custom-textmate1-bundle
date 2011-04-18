@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field_name} = models.FileField(upload_to="${2:uploads/}"${3:, null=True, blank=True})
+$0
+</string>
+	<key>name</key>
+	<string>DJANGO : Model Field : FileField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>filem</string>
+	<key>uuid</key>
+	<string>1541BAE3-5007-4DCA-854F-A4C2D7D03E34</string>
+</dict>
+</plist>

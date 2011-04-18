@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_DATE=`date +%Y-%m-%d` \
+   TM_FULL_DATE=`date "+%d %B %Y, %A , %H:%M:%S"` \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; vigos_css.css &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>css</string>
+	<key>name</key>
+	<string>CSS : Default</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>uuid</key>
+	<string>307B5B9F-EA0C-4B34-B573-263E1D894C35</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+/*
+	Created on ${TM_FULL_DATE}, by ${TM_FULLNAME}.
+	Copyright (c) ${TM_YEAR} ${TM_ORGANIZATION_NAME}. All rights reserved.
+	1em = 16px
+	1.5em = 24px
+*/
+
+body {
+	background-color: #fff;
+	color: #000;
+}
+
+div {
+	overflow: hidden;
+}
+
+a img {
+	border: none;
+}
+
+form , p {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+	
+}

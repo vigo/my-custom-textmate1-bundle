@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>by vigo/bronx</string>
+	<key>fileTypes</key>
+	<array>
+		<string>nanorc</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string></string>
+	<key>foldingStopMarker</key>
+	<string></string>
+	<key>name</key>
+	<string>Nano config file, .nanorc</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\#.*$\n?</string>
+			<key>name</key>
+			<string>comment.line.source.nanorc</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(un)?set|include|syntax|(i)?color\b</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b((bright)?(white|black|red|blue|green|yellow|magenta|cyan))\b</string>
+			<key>name</key>
+			<string>constant</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bautoindent|backup|backupdir|backwards|boldtext|brackets|casesensitive|const|cut|fill|historylog|matchbrackets|morespace|mouse|multibuffer|noconvert|nofollow|nohelp|nonewlines|nowrap|operatingdir|preserve|punct\b</string>
+			<key>name</key>
+			<string>entity</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.nanorc</string>
+	<key>uuid</key>
+	<string>7C8E8430-6CEE-40AA-9122-4E069B899F0B</string>
+</dict>
+</plist>

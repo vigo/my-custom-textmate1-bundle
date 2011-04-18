@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`php -r 'ini_set("date.timezone","Europe/Istanbul");echo date("c");'`</string>
+	<key>name</key>
+	<string>HTML : Insert Meta-Date</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>metadate</string>
+	<key>uuid</key>
+	<string>8758F8D1-E9F4-4538-90AF-93C406210923</string>
+</dict>
+</plist>

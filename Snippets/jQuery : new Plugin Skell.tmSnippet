@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(function(\$){
+    \$.fn.${1:name_of_plugin} = function(options){
+        var defaults = {
+        },
+        settings = \$.extend({},defaults,options);
+        this.each(function(){
+            var \$this = \$(this);
+            // \$this.click(function(e){});
+            return this;
+        });
+    };
+})(jQuery);
+$0</string>
+	<key>name</key>
+	<string>jQuery : new Plugin Skell</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>plug</string>
+	<key>uuid</key>
+	<string>BE09E52B-1D76-45A5-AFB4-2B16F8C0FA34</string>
+</dict>
+</plist>

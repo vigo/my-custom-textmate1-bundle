@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;VirtualHost *:80&gt;
+	ServerAdmin ${1:vigo@bilgi.edu.tr}
+	DocumentRoot ${2:/usr/local/}${3:domain}
+	${4:ServerName ${5:${3}}}
+	# ${6:ServerAlias www.${3}}
+	
+	# ErrorLog /var/log/apache2/${3}.error.log
+	# CustomLog /var/log/apache2/${3}.log common
+
+	# XBitHack on	
+	#	for SSI ; chmod +x myhtml.html
+
+	&lt;Directory /&gt;
+		# Includes
+		# 	for SSI
+		Options FollowSymLinks Indexes ExecCGI
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+		DirectoryIndex index.html index.php
+		ServerSignature On
+		IndexOptions FancyIndexing FoldersFirst XHTML Charset=UTF-8 HTMLTable NameWidth=*
+	&lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</string>
+	<key>name</key>
+	<string>APACHE : vhost</string>
+	<key>scope</key>
+	<string>source.apache-config</string>
+	<key>tabTrigger</key>
+	<string>vhost</string>
+	<key>uuid</key>
+	<string>5EFD7559-1136-472E-BC01-F1254A3E2857</string>
+</dict>
+</plist>

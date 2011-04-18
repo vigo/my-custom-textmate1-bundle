@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>res=$(CocoaDialog inputbox --title "Where to create project?" \
+    --informative-text "Example: ~/Development/Sites/mysite.com/" \
+    --button1 "Create" --button2 "Cancel")
+
+[[ $(head -n1 &lt;&lt;&lt;"$res") == "2" ]] &amp;&amp; exit_discard
+
+res=$(tail -n1 &lt;&lt;&lt;"$res")
+
+path=${res//\~/$HOME}
+
+cp -r skel/ $path
+find $path -type f -name .DS_Store -print0 | xargs -0 rm
+
+find $path -type d -name '.svn' -print0 | xargs -0 rm -rdf
+
+# mate shortcut must be defined!
+mate $path</string>
+	<key>extension</key>
+	<string>html</string>
+	<key>name</key>
+	<string>HTML5</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>uuid</key>
+	<string>4DB8E735-711B-42C8-A926-DDAC859D7EE6</string>
+</dict>
+</plist>

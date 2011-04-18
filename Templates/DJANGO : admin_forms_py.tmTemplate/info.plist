@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_DATE=`date +%Y-%m-%d` \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; admin_forms.py &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>py</string>
+	<key>name</key>
+	<string>DJANGO : admin_forms.py</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>uuid</key>
+	<string>17A1FED9-4F0B-4C1E-AF31-95F9C9B34E64</string>
+</dict>
+</plist>

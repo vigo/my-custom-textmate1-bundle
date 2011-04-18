@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># Expamle : Announcement , Category ( not plural and first letter has to be capital )
+class ${1:Modelname}(models.Model):
+	# created_at = models.DateTimeField(auto_now_add=True)
+	# updated_at = models.DateTimeField(auto_now_add=True, auto_now=True)
+	# pub_date = models.DateTimeField(_('Published Date'))
+	# title = models.CharField(max_length=255)
+	$0	
+
+	def __unicode__(self):
+		# return u'%s' % self.title
+		pass
+
+    def get_absolute_url(self):
+        # return "/news/%i/" % self.id
+        pass
+
+	class Meta:
+		# verbose_name = "item"
+		# verbose_name_plural = "items"
+		# ordering = ('field_name',)
+	    pass
+</string>
+	<key>name</key>
+	<string>DJANGO : models.Model</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>model</string>
+	<key>uuid</key>
+	<string>A3087286-619D-440F-9EF1-902FD02988C1</string>
+</dict>
+</plist>

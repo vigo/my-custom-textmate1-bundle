@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ModelName}AdminForm(forms.ModelForm):
+	def __init__(self, *args, **kwargs):
+		super(${1:ModelName}AdminForm, self).__init__(*args, **kwargs)
+		# self.fields['field_name'].label = "Label"
+		# self.fields['field_name'].help_text = "Help Text"
+		# self.fields['field_name'].help_text = _("Locale")
+	# field_name = forms.field_type(widget=Admin-MY-Widget)
+	
+	class Meta:
+		# model = ${1:ModelName}
+		pass
+    
+    class Media:
+        # css = {
+        #    'all': ('all.css',),
+        #    'screen': ('screen.css',),
+        #    'print': ('print.css',),
+        #}
+        # js = (
+        #    '/site-media/js/file1.js', 
+        #    '/site-media/js/file2.js', 
+        # )
+        pass
+</string>
+	<key>name</key>
+	<string>DJANGO : admin_forms.py : forms.ModelForm</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>adminform</string>
+	<key>uuid</key>
+	<string>5BD6887E-3D23-47D8-AB00-E2D3A65F059F</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>import pdb; pdb.set_trace()</string>
+	<key>name</key>
+	<string>PYTHON : Tracer</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>trace</string>
+	<key>uuid</key>
+	<string>BC9B117F-BB06-4B99-9262-04E1D4B42D13</string>
+</dict>
+</plist>

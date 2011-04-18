@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field_name} = models.SlugField(max_length=255${2:, unique=True})
+$0
+</string>
+	<key>name</key>
+	<string>DJANGO : Model Field : SlugField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>slugm</string>
+	<key>uuid</key>
+	<string>A6B19ECE-D254-425C-AD72-65DB5696CD2F</string>
+</dict>
+</plist>

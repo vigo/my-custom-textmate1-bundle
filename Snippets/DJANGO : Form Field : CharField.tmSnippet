@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field_name} = forms.CharField(max_length=${2:255}${3:, min_length=5}${4:, error_messages={
+	'required': "Error Message",
+	'min_length': "Error Message",
+	'max_length': "Error Message",
+	\}})
+$0</string>
+	<key>name</key>
+	<string>DJANGO : Form Field : CharField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>charf</string>
+	<key>uuid</key>
+	<string>5298CEF6-EEE5-497E-87C9-2FF7ACABC7D1</string>
+</dict>
+</plist>

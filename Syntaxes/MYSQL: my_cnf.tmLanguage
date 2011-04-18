@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>by vigo/bronx</string>
+	<key>fileTypes</key>
+	<array>
+		<string>cnf</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string></string>
+	<key>foldingStopMarker</key>
+	<string></string>
+	<key>name</key>
+	<string>MYSQL: my.cnf</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>(\#).*$\n?</string>
+			<key>name</key>
+			<string>comment.line.my.cnf</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^[\w\-\.]+</string>
+			<key>name</key>
+			<string>constant</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\[\b(client|(my)?isamchk|mysql(d\_safe|d|dump|hotcopy)?)\b\]</string>
+			<key>name</key>
+			<string>keyword.control.my.cnf</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>my.cnf</string>
+	<key>uuid</key>
+	<string>4270D308-92C4-4A1D-B169-EA20E8CE0F18</string>
+</dict>
+</plist>

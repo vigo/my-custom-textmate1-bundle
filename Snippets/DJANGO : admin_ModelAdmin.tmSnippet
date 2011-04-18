@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ModelName}Admin(admin.ModelAdmin):
+    # list_display = ('field_name',)
+    # list_display_links = ('field_name',)
+    # search_fields = ('field_name', 'foreign_key__related_fieldname',)
+    # ordering = ('field_name', '-field_name',)
+    # inlines = [MediaInline]
+    # list_filter = ('field_name',)
+    # list_per_page = 20
+    # date_hierarchy = 'date_field'
+    # prepopulated_fields = { 'from_original_field' : ('original_field',) }
+    # fieldsets = (
+    #     (None, { 'fields': ('field_name',) }),
+    #     ('Advanced options', {
+    #         'classes': ('collapse',), 
+    #         'fields': ('field_name',) 
+    #         }
+    #     ),
+    # )
+    # form = ${1:ModelName}AdminForm
+	pass
+admin.site.register(${1:ModelName}, ${1:ModelName}Admin)
+$0</string>
+	<key>name</key>
+	<string>DJANGO : admin.ModelAdmin</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>92077558-E2FE-4719-B836-7D5AF90685F4</string>
+</dict>
+</plist>

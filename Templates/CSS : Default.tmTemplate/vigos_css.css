@@ -1,0 +1,76 @@
+/*
+	Created on ${TM_FULL_DATE}, by ${TM_FULLNAME}.
+	Copyright (c) ${TM_YEAR} ${TM_ORGANIZATION_NAME}. All rights reserved.
+	1em = 16px
+	1.5em = 24px
+*/
+
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font: normal normal normal 1em/1.5em Arial, sans-serif;
+}
+
+a , a:link , a:active , a:visited {
+	color: #555;
+}
+
+a:hover {
+	color: #999;
+}
+
+a img {
+	border: none;
+}
+
+form , p {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	overflow: hidden;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+	margin: 0 0 10px 0;
+	padding 0;
+	line-height: 1.3em;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 2.2em;
+}
+
+h3 {
+	font-size: 2.0em;
+}
+
+h4 {
+	font-size: 1.8em;
+}
+
+h5 {
+	font-size: 1.6em;
+}
+
+h6 {
+	font-size: 1.4em;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+#canvas {
+	width: 768px;
+	background-color: #fff;
+	margin: 0px auto;
+}

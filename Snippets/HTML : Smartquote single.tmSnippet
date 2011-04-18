@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${0:${TM_SELECTED_TEXT/\A&amp;lsquo;(.*)&amp;rsquo;\z|.*/(?1:$1:&amp;lsquo;$0&amp;rsquo;)/m}}</string>
+	<key>name</key>
+	<string>HTML : Wrap Single Quote (smart)</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>uuid</key>
+	<string>FC005599-1CCF-4781-8127-8FCBE1DEF0EC</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field_name} = models.SmallIntegerField(${2: null=True, blank=True})
+$0
+</string>
+	<key>name</key>
+	<string>DJANGO : Model Field : SmallInteger</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>intm</string>
+	<key>uuid</key>
+	<string>5F80BA3E-A65C-4144-B584-961ABA89364C</string>
+</dict>
+</plist>

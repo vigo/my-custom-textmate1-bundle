@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:field_name} = forms.EmailField(${2:error_messages={
+	'required': "Error Message",
+	'invalid': "Error Message",
+	\}})
+$0</string>
+	<key>name</key>
+	<string>DJANGO : Form Field : EmailField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>emailf</string>
+	<key>uuid</key>
+	<string>97B5D5CF-B7AA-4C5B-BD26-0AA2FD197D85</string>
+</dict>
+</plist>

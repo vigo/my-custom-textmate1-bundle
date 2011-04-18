@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string># -----------------------------------------------------------------------------------
+# October 2, 2009 , Friday
+# Attention!
+# You must disable the original Command from HTML &gt; Refresh Running Browser(s)
+# Just modified the original one...
+# -----------------------------------------------------------------------------------
+
+ps -xc|grep -sqi firefox &amp;&amp; osascript &lt;&lt;'APPLESCRIPT'
+	tell app "Firefox" to activate
+	tell app "System Events" to keystroke "r" using command down
+	tell app "TextMate" to activate
+APPLESCRIPT
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>HTML : Refresh Firefox</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>text.html, source.css</string>
+	<key>uuid</key>
+	<string>3EFDD150-BC49-4383-88E2-4F2068E866E6</string>
+</dict>
+</plist>

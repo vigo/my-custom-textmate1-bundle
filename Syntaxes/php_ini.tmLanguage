@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>by vigo/bronx</string>
+	<key>fileTypes</key>
+	<array>
+		<string>ini</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string></string>
+	<key>foldingStopMarker</key>
+	<string></string>
+	<key>name</key>
+	<string>PHP, php.ini</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>(;).*$\n?</string>
+			<key>name</key>
+			<string>comment.line.source.php.ini-file</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^[\w\.]+</string>
+			<key>name</key>
+			<string>constant</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.php.ini-file</string>
+	<key>uuid</key>
+	<string>3BA49C49-A629-4134-8B13-591E6BADEDA8</string>
+</dict>
+</plist>
