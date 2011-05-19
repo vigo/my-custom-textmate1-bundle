@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+Developer: Uğur Özyılmazel
+Site: <site name>
+Twitter: @ugurozyilmazel
+Location: İstanbul, Türkiye
+
+/* THANKS */
+Names (& URL): <name or url>
+
+/* SITE */
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery
+Software:

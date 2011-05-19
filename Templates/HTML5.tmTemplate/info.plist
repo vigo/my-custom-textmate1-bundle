@@ -13,7 +13,7 @@ res=$(tail -n1 &lt;&lt;&lt;"$res")
 
 path=${res//\~/$HOME}
 
-cp -r skel/ $path
+cp -r skel1.1/ $path
 find $path -type f -name .DS_Store -print0 | xargs -0 rm
 
 find $path -type d -name '.svn' -print0 | xargs -0 rm -rdf

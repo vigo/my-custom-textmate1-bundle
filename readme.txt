@@ -2,6 +2,9 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2011-05-19
+    * HTML5 bundle updated, latest html5boilerplate has been added.
+------------------------------------------------------------------------------
 2011-04-18
     * Repo moved to my custom git server
 ------------------------------------------------------------------------------
