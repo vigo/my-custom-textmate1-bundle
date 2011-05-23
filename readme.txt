@@ -2,6 +2,11 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2011-05-23
+    * update
+        - HTML5 bundle now uses CocoaDialog with filesave option. Now you can
+          choose target path via Cocoa file request window!
+------------------------------------------------------------------------------
 2011-05-19
     * HTML5 bundle updated, latest html5boilerplate has been added.
 ------------------------------------------------------------------------------

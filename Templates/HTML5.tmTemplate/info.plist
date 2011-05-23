@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>command</key>
-	<string>res=$(CocoaDialog inputbox --title "Where to create project?" \
-    --informative-text "Example: ~/Development/Sites/mysite.com/" \
-    --button1 "Create" --button2 "Cancel")
-
-[[ $(head -n1 &lt;&lt;&lt;"$res") == "2" ]] &amp;&amp; exit_discard
-
-res=$(tail -n1 &lt;&lt;&lt;"$res")
-
-path=${res//\~/$HOME}
-
+	<string>res=$(CocoaDialog filesave --text "Choose directory and type: here")
+path=`dirname $res`
 cp -r skel1.1/ $path
-find $path -type f -name .DS_Store -print0 | xargs -0 rm
+mate $path
 
-find $path -type d -name '.svn' -print0 | xargs -0 rm -rdf
+# notification=$(CocoaDialog bubble --debug --title "My first bubble" --text "How do you like it?")
+# rv=$(CocoaDialog ok-msgbox --text "$path" \
+#    --informative-text "(Yes, the message was to inform you about itself)" \
+#    --no-newline --float)
+# res=$(CocoaDialog inputbox --title "Where to create project?" \
+#    --informative-text "Example: ~/Development/Sites/mysite.com/" \
+#    --button1 "Create" --button2 "Cancel")
+
+# [[ $(head -n1 &lt;&lt;&lt;"$res") == "2" ]] &amp;&amp; exit_discard
+# res=$(tail -n1 &lt;&lt;&lt;"$res")
+# path=${res//\~/$HOME}
+
+# cp -r skel1.1/ $path
+# find $path -type f -name .DS_Store -print0 | xargs -0 rm
+# find $path -type d -name '.svn' -print0 | xargs -0 rm -rdf
 
 # mate shortcut must be defined!
-mate $path</string>
+#mate $path</string>
 	<key>extension</key>
 	<string>html</string>
 	<key>name</key>
