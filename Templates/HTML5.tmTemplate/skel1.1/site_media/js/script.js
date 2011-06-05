@@ -4,7 +4,14 @@ $(function(){
     
     // dji18njs.lang_id = "tr";
     // console.log(dji18njs.gettext("home"));
-
+    
+    // var platform = navigator.platform.toLowerCase();
+    // if(platform == "ipad"){
+    //     $("head").append('<meta name="viewport" content="width=device-width, initial-scale=0.8">');
+    // } else if(platform == 'iphone' || platform == 'ipod' || platform == 'iphone simulator'){
+    //     $("head").append('<meta name="viewport" content="width=device-width, initial-scale=0.4">');
+    // }
+    
 });
 
 // google analytics
