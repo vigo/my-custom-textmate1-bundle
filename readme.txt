@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2011-06-05
+    * addition
+        - &rsquo; insert via [alt+shift+2]
+------------------------------------------------------------------------------
 2011-05-23
     * update
         - HTML5 bundle now uses CocoaDialog with filesave option. Now you can
