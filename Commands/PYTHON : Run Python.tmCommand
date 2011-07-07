@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+
+import os
+from sys import stdout, stdin, exit
+from traceback import format_stack
+
+py = stdin.read()
+
+if 'TM_SELECTED_SCOPE' in os.environ:
+    stdout.write(" ")
+else:
+    stdout.write("\n")
+
+# stdout.write()
+exec(py)</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^E</string>
+	<key>name</key>
+	<string>PYTHON : Run Python</string>
+	<key>output</key>
+	<string>afterSelectedText</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>uuid</key>
+	<string>336562F4-8A49-49FB-A947-6FF82038C209</string>
+</dict>
+</plist>

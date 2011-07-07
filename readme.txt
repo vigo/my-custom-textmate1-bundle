@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2011-07-07
+    * addition
+        - Python execution (selection/file) [kntrl+shift+e]
+------------------------------------------------------------------------------
 2011-06-05
     * addition
         - &rsquo; insert via [alt+shift+2]
