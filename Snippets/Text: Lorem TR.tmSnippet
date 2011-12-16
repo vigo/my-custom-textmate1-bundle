@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Bu yazı sadece test etmek amacıyla yazılmış anlamsız bir yazıdır, hiçbir anlam ifade etmez. Amacımız arka arkaya dört adet cümle yerleştirmektir ve mümkün mertebe cümleleri uzatmaktır. Öğlen yemek yemek çok doğal bir harekettir ve 1234 tane ÖZGÜR YAZILIM seven gönüllü insanların şekli şemali. Şakir bunu sakin Kamil sanma diye paris UĞUR ve qwerty Qwerty durumları.</string>
+	<key>name</key>
+	<string>Text: Lorem TR</string>
+	<key>tabTrigger</key>
+	<string>lorem</string>
+	<key>uuid</key>
+	<string>00491B24-6FD5-4425-BB71-0D376F79CD74</string>
+</dict>
+</plist>

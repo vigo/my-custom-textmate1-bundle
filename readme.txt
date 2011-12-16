@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2011-12-16
+    * addition
+        - Lorem Impsum styles [lorem]
+------------------------------------------------------------------------------
 2011-07-07
     * addition
         - Python execution (selection/file) [kntrl+shift+e]

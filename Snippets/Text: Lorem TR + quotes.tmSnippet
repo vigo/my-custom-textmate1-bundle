@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Script, sanki Safari web browser&amp;rsquo;ıyla verdiğiniz URL&amp;rsquo;i açıyor ve gelen sayfayı komple kaydediyor. Bu işi normal şartlarda yapmak için çeşitli browser extension&amp;rsquo;larına ihtiyacınız var. Daha önceleri Safari extension olayını desteklemiyordu. Chrome&amp;rsquo;a da extension olayı bildiğiniz gibi sonradan geldi. Mevcut tek sistem Firefox ve Screengrab extension&amp;rsquo;ıydı.</string>
+	<key>name</key>
+	<string>Text: Lorem TR + quotes</string>
+	<key>tabTrigger</key>
+	<string>lorem</string>
+	<key>uuid</key>
+	<string>5C3F3FD3-A5A2-461E-B4D8-340E605560B1</string>
+</dict>
+</plist>
