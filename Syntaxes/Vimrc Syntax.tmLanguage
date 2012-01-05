@@ -14,13 +14,25 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>^\#.*$\n?</string>
+			<string>\".*$\n?</string>
 			<key>name</key>
-			<string>comment.line.vimrc</string>
+			<string>comment.line.config.vimrc</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>:\b\w+\b</string>
+			<key>name</key>
+			<string>entity.name.function.config.vimrc</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(set|let|(n|c|i)?(nore)?map|syntax|filetype|call|au(tocmd)?|snor)\b</string>
+			<key>name</key>
+			<string>keyword.config.vimrc</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>vimrc</string>
+	<string>config.vimrc</string>
 	<key>uuid</key>
 	<string>28812AD7-8BD7-48BF-ABBA-12EC2F6591C6</string>
 </dict>
