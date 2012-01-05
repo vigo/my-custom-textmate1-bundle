@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2012-01-05
+    * new
+        - Vimrc config and prefs
+------------------------------------------------------------------------------
 2011-12-16
     * addition
         - Lorem Impsum styles [lorem]

@@ -22,6 +22,8 @@
 			<string>------------------------------------</string>
 			<string>360424A5-ECDC-425A-95D9-9E6B6764180E</string>
 			<string>------------------------------------</string>
+			<string>1A6E0239-A52C-4D77-AB06-626AEC242D63</string>
+			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -33,6 +35,21 @@
 				</array>
 				<key>name</key>
 				<string>Template</string>
+			</dict>
+			<key>1A6E0239-A52C-4D77-AB06-626AEC242D63</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>EBBB30D4-999D-4036-A4C3-77BD748BAA22</string>
+					<string>C8B892D1-B200-4EFD-901A-258EFE2DFAA7</string>
+					<string>1E01A5C8-5D69-49C1-B483-F06E1EC1B864</string>
+					<string>00491B24-6FD5-4425-BB71-0D376F79CD74</string>
+					<string>FF2BD761-1E7E-41B5-AED2-CD75D2A37B5D</string>
+					<string>5C3F3FD3-A5A2-461E-B4D8-340E605560B1</string>
+					<string>5BAE2658-3462-46EA-A1BF-8E717CEA28A7</string>
+				</array>
+				<key>name</key>
+				<string>Text</string>
 			</dict>
 			<key>360424A5-ECDC-425A-95D9-9E6B6764180E</key>
 			<dict>

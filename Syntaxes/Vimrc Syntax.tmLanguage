@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>by vigo/bronx</string>
+	<key>foldingStartMarker</key>
+	<string></string>
+	<key>foldingStopMarker</key>
+	<string></string>
+	<key>name</key>
+	<string>Vimrc Syntax</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\#.*$\n?</string>
+			<key>name</key>
+			<string>comment.line.vimrc</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>vimrc</string>
+	<key>uuid</key>
+	<string>28812AD7-8BD7-48BF-ABBA-12EC2F6591C6</string>
+</dict>
+</plist>
