@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_DATE=`date +%Y-%m-%d` \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; default.rb &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>rb</string>
+	<key>name</key>
+	<string>Ruby Script</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>uuid</key>
+	<string>D3AB3C8B-E3E1-4FDC-B515-102EC4FEA3EC</string>
+</dict>
+</plist>

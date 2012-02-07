@@ -26,7 +26,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(set|let|(n|c|i)?(nore)?map|syntax|filetype|call|au(tocmd)?|snor)\b</string>
+			<string>\b(set|let|(n|c|i)?(nore)?map|syntax|filetype|call|au(tocmd)?|snor|colorscheme)\b</string>
 			<key>name</key>
 			<string>keyword.config.vimrc</string>
 		</dict>
