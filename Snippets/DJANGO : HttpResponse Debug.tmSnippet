@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>return HttpResponse('&lt;br/&gt;'.join(["%s = %s" % (i, locals()[i]) for i in locals().keys() if not i == 'request']))</string>
+	<key>name</key>
+	<string>DJANGO : HttpResponse Debug</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>hdb</string>
+	<key>uuid</key>
+	<string>66EEB8F4-722F-497B-8AB5-77E0933B0DB2</string>
+</dict>
+</plist>

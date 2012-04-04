@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>hdbg(["%s = %s" % (i, locals()[i]) for i in locals().keys() if not i == 'request'])$0</string>
+	<key>name</key>
+	<string>DJANGO : html_debugger Params</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>hdb</string>
+	<key>uuid</key>
+	<string>FE9F3704-6201-4E82-A4F5-45A37CADB0FD</string>
+</dict>
+</plist>

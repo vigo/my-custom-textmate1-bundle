@@ -26,7 +26,7 @@
 			<key>match</key>
 			<string>^[\w\.]+</string>
 			<key>name</key>
-			<string>constant</string>
+			<string>entity.other.inherited-class</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

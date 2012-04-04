@@ -32,6 +32,7 @@
 				<key>items</key>
 				<array>
 					<string>6C6A0D4E-07E1-4226-B413-ABDCE191224B</string>
+					<string>ADDA2659-E9D6-4048-BB13-72FC28CD275F</string>
 				</array>
 				<key>name</key>
 				<string>Template</string>
@@ -67,7 +68,8 @@
 					<string>A3087286-619D-440F-9EF1-902FD02988C1</string>
 					<string>92077558-E2FE-4719-B836-7D5AF90685F4</string>
 					<string>5BD6887E-3D23-47D8-AB00-E2D3A65F059F</string>
-					<string>29652C22-8578-40EB-9DC5-EC15EC1F5255</string>
+					<string>------------------------------------</string>
+					<string>664C8E4C-206E-4EE6-AAEE-E6DFC78FCBF0</string>
 				</array>
 				<key>name</key>
 				<string>DJANGO</string>
@@ -122,6 +124,18 @@
 				</array>
 				<key>name</key>
 				<string>Model Fields</string>
+			</dict>
+			<key>664C8E4C-206E-4EE6-AAEE-E6DFC78FCBF0</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>29652C22-8578-40EB-9DC5-EC15EC1F5255</string>
+					<string>FE9F3704-6201-4E82-A4F5-45A37CADB0FD</string>
+					<string>66EEB8F4-722F-497B-8AB5-77E0933B0DB2</string>
+					<string>C53CB67D-A239-46EE-9BE7-9B5312FF5918</string>
+				</array>
+				<key>name</key>
+				<string>Template Debugging</string>
 			</dict>
 			<key>76C031EA-04E2-4E36-B65F-9A0428D8C583</key>
 			<dict>
@@ -285,6 +299,10 @@
 		<string>3E0BF3AD-C171-4392-B2B4-390193D28C61</string>
 		<string>D1519DEE-5AB3-46A8-944F-40988C04CA70</string>
 		<string>29652C22-8578-40EB-9DC5-EC15EC1F5255</string>
+		<string>FE9F3704-6201-4E82-A4F5-45A37CADB0FD</string>
+		<string>66EEB8F4-722F-497B-8AB5-77E0933B0DB2</string>
+		<string>C53CB67D-A239-46EE-9BE7-9B5312FF5918</string>
+		<string>ADDA2659-E9D6-4048-BB13-72FC28CD275F</string>
 		<string>E928D75C-586D-4E91-B2CD-EB11070550F2</string>
 		<string>A2F1BC99-80B0-46FD-AAC9-8C97B6173283</string>
 		<string>4270D308-92C4-4A1D-B169-EA20E8CE0F18</string>
@@ -298,6 +316,10 @@
 		<string>FF2BD761-1E7E-41B5-AED2-CD75D2A37B5D</string>
 		<string>5C3F3FD3-A5A2-461E-B4D8-340E605560B1</string>
 		<string>5BAE2658-3462-46EA-A1BF-8E717CEA28A7</string>
+		<string>3D7A0A59-943C-404B-88AF-CC37946ED0A0</string>
+		<string>D3AB3C8B-E3E1-4FDC-B515-102EC4FEA3EC</string>
+		<string>12C06C8B-6CE7-4E8C-B6C0-C8ADBEBB9F10</string>
+		<string>28812AD7-8BD7-48BF-ABBA-12EC2F6591C6</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
