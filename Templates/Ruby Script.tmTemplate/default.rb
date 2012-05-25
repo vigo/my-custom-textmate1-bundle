@@ -6,19 +6,25 @@
 #
 require 'date'
 require 'optparse'
+require 'awesome_print'
 
 if $0 == __FILE__
   options = {}
-  OptionParser.new do |opts|
-    opts.banner = "Usage: #{__FILE__} [OPTIONS]"
-    opts.separator  ""
-    opts.separator  "Example:"
-    opts.separator  ""
-    opts.separator  "OPTIONS"
-    opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
+  opt_parser = OptionParser.new do |opt|
+    opt.banner = "Usage: #{__FILE__} [OPTIONS] [ARGUMENTS]"
+    opt.separator  ""
+    opt.separator  "OPTIONS"
+    opt.on("-s", "--server SERVER", "Hostname") do |hostname|
+      options[:hostname] = hostname
+    end
+    opt.on("-v", "--[no-]verbose", "Run verbosely") do |v|
       options[:verbose] = v
     end
-  end.parse!
-
-  puts ARGV
+    opt.separator  ""
+    opt.separator  "ARGUMENTS"
+    opt.separator  ""
+  end
+  opt_parser.parse!
+  
+  ap options
 end

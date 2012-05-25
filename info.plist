@@ -24,6 +24,8 @@
 			<string>------------------------------------</string>
 			<string>1A6E0239-A52C-4D77-AB06-626AEC242D63</string>
 			<string>------------------------------------</string>
+			<string>39BB4390-8481-4C4D-B456-30754C6B5DC4</string>
+			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -84,6 +86,15 @@
 				</array>
 				<key>name</key>
 				<string>jQuery</string>
+			</dict>
+			<key>39BB4390-8481-4C4D-B456-30754C6B5DC4</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
+				</array>
+				<key>name</key>
+				<string>Bash</string>
 			</dict>
 			<key>4EBF2F59-048D-453B-B889-93B1BC6378BD</key>
 			<dict>

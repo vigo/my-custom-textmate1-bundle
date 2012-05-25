@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>for ${1:item} in \${${2:array}[@]}; do
+    echo \$${1:item}$0
+done
+</string>
+	<key>name</key>
+	<string>forin (Bash Array)</string>
+	<key>scope</key>
+	<string>source.shell</string>
+	<key>tabTrigger</key>
+	<string>forin</string>
+	<key>uuid</key>
+	<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
+</dict>
+</plist>
