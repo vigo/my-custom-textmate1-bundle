@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2012-07-29
+   * new
+       - html5 scaff
+------------------------------------------------------------------------------
 2012-05-25
     * new
         - Bash snippet: forin (Array) [forin]

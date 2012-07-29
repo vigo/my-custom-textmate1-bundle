@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\[\b(client|(my)?isamchk|mysql(d\_safe|d|dump|hotcopy)?)\b\]</string>
+			<string>\[\b(client|(my)?isamchk|mysql(d\_safe|d|dump|hotcopy|admin|check|import|show)?)\b\]</string>
 			<key>name</key>
 			<string>keyword.control.my.cnf</string>
 		</dict>

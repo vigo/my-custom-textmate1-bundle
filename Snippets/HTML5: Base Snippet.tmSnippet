@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;title&gt;&lt;/title&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;meta name="description" content=""&gt;
+        &lt;meta name="author" content=""&gt;
+        
+        &lt;!-- Styles --&gt;
+        &lt;link href="styles.css" rel="stylesheet" /&gt;
+        
+        &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt;
+        &lt;!--[if lt IE 9]&gt;
+        &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+        &lt;![endif]--&gt;
+        
+        &lt;!-- Le fav and touch icons --&gt;
+        &lt;!-- &lt;link rel="shortcut icon" href="favicon.ico"&gt; --&gt;
+        &lt;!-- &lt;link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114-precomposed.png"&gt; --&gt;
+        &lt;!-- &lt;link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72-precomposed.png"&gt; --&gt;
+        &lt;!-- &lt;link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57-precomposed.png"&gt; --&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        $0
+        &lt;!-- Le javascript --&gt;
+        &lt;!-- script src="jquery.js"&gt;&lt;/script --&gt;
+        
+        &lt;!-- Analytics --&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</string>
+	<key>name</key>
+	<string>HTML5: Base Snippet</string>
+	<key>tabTrigger</key>
+	<string>html5</string>
+	<key>uuid</key>
+	<string>96EC35C4-B91B-4D07-84EC-1F8742F9F07F</string>
+</dict>
+</plist>
