@@ -5,5 +5,7 @@
 #
 # chmod +x ${TM_NEW_FILE_BASENAME}
 #
+set -e
+
 
 
