@@ -5,6 +5,7 @@ Follow me: twitter.com/ugurozyilmazel
 2012-08-08
     * addition
         - Python Test, assertitions...
+        - Django TestCase snippet
 ------------------------------------------------------------------------------
 2012-08-07
   * fix
