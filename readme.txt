@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2012-08-08
+    * addition
+        - Python Test, assertitions...
+------------------------------------------------------------------------------
 2012-08-07
   * fix
     - Shell Script template has default command
