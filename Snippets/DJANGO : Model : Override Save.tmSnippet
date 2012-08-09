@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def save(self, *args, **kwargs):
+    # any function before
+    super(${1:ModelName}, self).save(*args, **kwargs) # real save()
+    # any function after
+
+$0</string>
+	<key>name</key>
+	<string>DJANGO : Model : Override Save</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>save</string>
+	<key>uuid</key>
+	<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
+</dict>
+</plist>

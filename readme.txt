@@ -2,10 +2,14 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2012-08-09
+    * addition
+        - Django; Overriding Model's save [save]
+------------------------------------------------------------------------------
 2012-08-08
     * addition
-        - Python Test, assertitions...
-        - Django TestCase snippet
+        - Python Test, assertitions... [ase]
+        - Django TestCase snippet [tcase]
 ------------------------------------------------------------------------------
 2012-08-07
   * fix

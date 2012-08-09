@@ -22,6 +22,7 @@
 			<string>DDB52EC7-BA9D-4BFE-B8F7-CC506D2DAA96</string>
 			<string>------------------------------------</string>
 			<string>360424A5-ECDC-425A-95D9-9E6B6764180E</string>
+			<string>909B5073-667E-40A2-A747-8DC4E58EECF9</string>
 			<string>------------------------------------</string>
 			<string>1A6E0239-A52C-4D77-AB06-626AEC242D63</string>
 			<string>------------------------------------</string>
@@ -60,6 +61,8 @@
 				<key>items</key>
 				<array>
 					<string>------------------------------------</string>
+					<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
+					<string>------------------------------------</string>
 					<string>5F688335-A1E7-476D-BD2B-BB342FB0F4EB</string>
 					<string>------------------------------------</string>
 					<string>5E224102-15B3-4BA8-AF5B-EC3CB4F5EDF1</string>
@@ -73,6 +76,7 @@
 					<string>5BD6887E-3D23-47D8-AB00-E2D3A65F059F</string>
 					<string>------------------------------------</string>
 					<string>664C8E4C-206E-4EE6-AAEE-E6DFC78FCBF0</string>
+					<string>------------------------------------</string>
 				</array>
 				<key>name</key>
 				<string>DJANGO</string>
@@ -188,6 +192,15 @@
 				</array>
 				<key>name</key>
 				<string>Python Test</string>
+			</dict>
+			<key>909B5073-667E-40A2-A747-8DC4E58EECF9</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F3249596-5FB9-424E-90F8-7F244ECCD78A</string>
+				</array>
+				<key>name</key>
+				<string>DJANGO Test</string>
 			</dict>
 			<key>A48FC6BB-0342-4E0E-82D9-46FCF181F867</key>
 			<dict>
