@@ -2,6 +2,10 @@ Author: Uğur Özyılmazel
 Email: ugur@ozyilmazel.com
 Follow me: twitter.com/ugurozyilmazel
 ------------------------------------------------------------------------------
+2012-08-11
+    * addition:
+        - Django testing: self.assertIsInstance [ase]
+------------------------------------------------------------------------------
 2012-08-09
     * addition
         - Django; Overriding Model's save [save]

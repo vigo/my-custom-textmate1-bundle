@@ -198,6 +198,7 @@
 				<key>items</key>
 				<array>
 					<string>F3249596-5FB9-424E-90F8-7F244ECCD78A</string>
+					<string>9CB1E563-AB30-4435-B7BC-01AEA5D69D81</string>
 				</array>
 				<key>name</key>
 				<string>DJANGO Test</string>
@@ -397,6 +398,9 @@
 		<string>32A594B8-764F-47E2-AA34-54634DC2D11E</string>
 		<string>81777A36-6C8B-4118-ACEC-79107430A35F</string>
 		<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
+		<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
+		<string>F3249596-5FB9-424E-90F8-7F244ECCD78A</string>
+		<string>9CB1E563-AB30-4435-B7BC-01AEA5D69D81</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
