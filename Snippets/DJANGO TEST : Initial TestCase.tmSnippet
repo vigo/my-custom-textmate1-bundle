@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Model}Test(TestCase):
+    """doc string for $1Test"""
+    
+    def setUp(self):
+        """this is the initial moment"""
+        # self.${1/(\w*)/\L$1/} = $1.objects.create()
+        pass
+
+    def tearDown(self):
+        """this is the last moment before destroy"""
+        pass
+
+    def test_lookup(self):
+        """doc string for test_lookup"""
+        
+        # object must be empty
+        self.assertQuerysetEqual($1.objects.all(), [])
+        
+        # check istance
+        # self.assertIsInstance(self.${1/(\w*)/\L$1/}, $1, u"${1/(\w*)/\L$1/} is not an instance of $1")
+</string>
+	<key>name</key>
+	<string>DJANGO TEST : Initial TestCase</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>tcase</string>
+	<key>uuid</key>
+	<string>8DF639A7-7689-470E-A70C-BD153D77FD10</string>
+</dict>
+</plist>

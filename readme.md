@@ -8,6 +8,13 @@ Twitter: [@ugurozyilmazel][3]
 ### 2012-08-14
 - Python pprint `pp`
 - Python; utf-8 encoding mark `utf8`
+- Django TestCases `ase`
+    - assertContains
+    - assertNotContains
+    - assertFieldOutput
+    - assertFormError
+    - assertRedirects
+    - assertTemplateUsed
 
 ### 2012-08-11
 - Django testing: self.assertIsInstance `ase`

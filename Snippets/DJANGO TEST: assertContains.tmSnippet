@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.assertContains(response, "${1:text}"${2:, status_code=200}${3:, count=1}${4:, html=true})$0
+</string>
+	<key>name</key>
+	<string>DJANGO TEST: assertContains</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ase</string>
+	<key>uuid</key>
+	<string>48150D9D-33AA-4C04-BE01-142A38BF623D</string>
+</dict>
+</plist>

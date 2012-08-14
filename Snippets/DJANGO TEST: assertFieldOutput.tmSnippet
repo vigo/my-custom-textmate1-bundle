@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.assertFieldOutput(${1:CharField}, {'${2:valid_input}': "${3:clean_value}"}, {'${4:invalid_input}': [u'${5:error_message}']})</string>
+	<key>name</key>
+	<string>DJANGO TEST: assertFieldOutput</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ase</string>
+	<key>uuid</key>
+	<string>99FA1E2F-DF2A-46BD-A405-47B81237916F</string>
+</dict>
+</plist>

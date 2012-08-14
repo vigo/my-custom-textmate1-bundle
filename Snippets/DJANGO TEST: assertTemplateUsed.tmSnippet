@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.assertTemplateUsed(response, "${1:template_file}.html")</string>
+	<key>name</key>
+	<string>DJANGO TEST: assertTemplateUsed</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ase</string>
+	<key>uuid</key>
+	<string>B821D254-780B-4909-90B2-E8B1F6876D19</string>
+</dict>
+</plist>
