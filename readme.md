@@ -7,6 +7,7 @@ Twitter: [@ugurozyilmazel][3]
 # Change Log
 ### 2012-08-14
 - Python pprint `pp`
+- Python; utf-8 encoding mark `utf8`
 
 ### 2012-08-11
 - Django testing: self.assertIsInstance `ase`

@@ -248,8 +248,10 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>456D703C-0E77-41B0-9CE5-D4F975586081</string>
 					<string>336562F4-8A49-49FB-A947-6FF82038C209</string>
 					<string>BC9B117F-BB06-4B99-9262-04E1D4B42D13</string>
+					<string>9488F6D4-C70E-48D9-BBDB-62A50814A147</string>
 				</array>
 				<key>name</key>
 				<string>Python</string>
@@ -401,6 +403,8 @@
 		<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
 		<string>F3249596-5FB9-424E-90F8-7F244ECCD78A</string>
 		<string>9CB1E563-AB30-4435-B7BC-01AEA5D69D81</string>
+		<string>456D703C-0E77-41B0-9CE5-D4F975586081</string>
+		<string>9488F6D4-C70E-48D9-BBDB-62A50814A147</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
