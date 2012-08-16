@@ -5,6 +5,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-08-16
+- RUN Django Tests `cmd+r`
+
 ### 2012-08-14
 - Python pprint `pp`
 - Python; utf-8 encoding mark `utf8`

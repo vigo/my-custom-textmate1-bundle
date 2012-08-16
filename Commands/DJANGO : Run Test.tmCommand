@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>tag()
+{
+    # usage:
+    # tag pre "Hello"
+    echo "&lt;${1}&gt;${2}&lt;/${1}&gt;"
+}
+if [[ $VIRTUAL_ENV ]]; then
+    project=$TM_PROJECT_DIRECTORY
+    app="$(basename "$TM_DIRECTORY")"
+    python="$VIRTUAL_ENV/bin/python"
+    current_file="$(basename $TM_SELECTED_FILE)"
+    # css_file="${TM_BUNDLE_SUPPORT}/django-run-test/styles.css"
+    
+    echo '&lt;html&gt;&lt;head&gt;&lt;title&gt;Running Test(s)&lt;/title&gt;'
+    # echo "&lt;link rel='stylesheet' href='${css_file}' &gt;"
+    echo '&lt;/head&gt;&lt;body&gt;'
+    
+    tag pre "$TM_BUNDLE_SUPPORT"
+    
+    if [[ $current_file == "models.py" ]]; then
+        tag h1 "Running Docstring Tests for models"
+        tag pre "$($python $project/manage.py test $app.Assignment)"
+    else
+        tag h1 "Running TestCases"
+    fi
+
+
+    echo '&lt;/body&gt;&lt;/html&gt;'
+else
+cat &lt;&lt;END_OF_MESSAGE
+You need to activate Virtual Environment
+1. Close TextMate and Terminal
+2. Open Terminal and Activate VirtualEnv via:
+
+workon ENV_NAME
+
+3. Now open project via:
+
+mate .
+END_OF_MESSAGE
+fi</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>DJANGO : Run Test</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>uuid</key>
+	<string>5C971D2E-A1DF-459F-BDAD-58FB3B48106C</string>
+</dict>
+</plist>
