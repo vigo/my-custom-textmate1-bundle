@@ -5,6 +5,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-08-21
+- Testing django models + units via `cmd+r`
+
 ### 2012-08-16
 - RUN Django Tests `cmd+r`
 

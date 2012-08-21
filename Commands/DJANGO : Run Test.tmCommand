@@ -5,47 +5,19 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>tag()
-{
-    # usage:
-    # tag pre "Hello"
-    echo "&lt;${1}&gt;${2}&lt;/${1}&gt;"
-}
-if [[ $VIRTUAL_ENV ]]; then
-    project=$TM_PROJECT_DIRECTORY
-    app="$(basename "$TM_DIRECTORY")"
-    python="$VIRTUAL_ENV/bin/python"
-    current_file="$(basename $TM_SELECTED_FILE)"
-    # css_file="${TM_BUNDLE_SUPPORT}/django-run-test/styles.css"
-    
-    echo '&lt;html&gt;&lt;head&gt;&lt;title&gt;Running Test(s)&lt;/title&gt;'
-    # echo "&lt;link rel='stylesheet' href='${css_file}' &gt;"
-    echo '&lt;/head&gt;&lt;body&gt;'
-    
-    tag pre "$TM_BUNDLE_SUPPORT"
-    
-    if [[ $current_file == "models.py" ]]; then
-        tag h1 "Running Docstring Tests for models"
-        tag pre "$($python $project/manage.py test $app.Assignment)"
-    else
-        tag h1 "Running TestCases"
-    fi
+	<string># Notes:
+# Model testing:
+# to test individual model(s) add:
+# TEST = model_name
+#
+# TestCase testing:
+# You must add:
+# APP = app_name
+#
+# to test individual method(s) add:
+# TEST = method_name
 
-
-    echo '&lt;/body&gt;&lt;/html&gt;'
-else
-cat &lt;&lt;END_OF_MESSAGE
-You need to activate Virtual Environment
-1. Close TextMate and Terminal
-2. Open Terminal and Activate VirtualEnv via:
-
-workon ENV_NAME
-
-3. Now open project via:
-
-mate .
-END_OF_MESSAGE
-fi</string>
+python "${TM_BUNDLE_SUPPORT}/django_run_tests/run_test.py"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
