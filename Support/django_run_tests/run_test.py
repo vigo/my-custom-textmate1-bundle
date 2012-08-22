@@ -10,6 +10,7 @@ import os
 import re
 import subprocess
 import shlex
+import cgi
 
 
 TM_FILEPATH          = os.environ['TM_FILEPATH']
@@ -109,7 +110,7 @@ def run_shell_command(command):
                            stdout=subprocess.PIPE,
                            stderr=subprocess.PIPE)
     result = cmd.communicate()
-    return "".join(result)
+    return cgi.escape("".join(result))
 
 
 def main():
@@ -163,12 +164,12 @@ def main():
         else:
             output.append(tag('h2', "Model Test(s)... %s" % len(models)))
             for model in models:
-                test_cmds.append(shell_cmd % {
-                    'python': PYTHON,
-                    'manage_py': TM_PROJECT_DIRECTORY,
-                    'app': APP,
-                    'model': model,
-                })
+                output.append(tag('h4', "<small>%s</small>.%s" % (APP, model)))
+            test_cmds = ["%(python)s %(manage_py)s/manage.py test %(app)s" % {
+                'python': PYTHON,
+                'manage_py': TM_PROJECT_DIRECTORY,
+                'app': APP,
+            }]
         for test in test_cmds:
             output.append(tag('h5', '%s' % test, html_class="code"))
             output.append(tag('pre', run_shell_command(test)))
