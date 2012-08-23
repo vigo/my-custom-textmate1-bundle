@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>datetime.datetime(${1:Year}, ${2:Month}, ${3:Day}${4:, ${5:Hour}, ${6:Minute}, ${7:Second}})$0</string>
+	<key>name</key>
+	<string>PYTHON : datetime.datetime</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>dt</string>
+	<key>uuid</key>
+	<string>5E8C3E25-FB95-43DC-8F3D-F1F3D236F80D</string>
+</dict>
+</plist>

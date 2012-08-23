@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>datetime.datetime.now()$0</string>
+	<key>name</key>
+	<string>PYTHON : datetime.datetime.now()</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>dt</string>
+	<key>uuid</key>
+	<string>FCAC84D7-9A01-4BCC-B7E6-F64D1EEAFEC5</string>
+</dict>
+</plist>

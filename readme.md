@@ -6,6 +6,7 @@ Twitter: [@ugurozyilmazel][3]
 
 # Change Log
 ### 2012-08-23
+-  datetime.datetime, datetime.datetime.now(), datetime.timedelta `dt`
 - Python Docstring test short cuts `.` for ... and `..` for >>>
 
 ### 2012-08-21
