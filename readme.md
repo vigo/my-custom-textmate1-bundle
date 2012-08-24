@@ -6,7 +6,7 @@ Twitter: [@ugurozyilmazel][3]
 
 # Change Log
 ### 2012-08-24
-- Show filepath information `alt+cmd+p`
+- Show filepath information `alt+cmd+p` + now outputs in to window title
 
 ### 2012-08-23
 -  datetime.datetime, datetime.datetime.now(), datetime.timedelta `dt`

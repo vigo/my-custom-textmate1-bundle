@@ -11,7 +11,8 @@ echo "   Project path : ${TM_PROJECT_DIRECTORY}"
 echo "   Base Dir     : $(basename $TM_DIRECTORY)"
 echo "   Directory    : ${TM_DIRECTORY}"
 echo "   File path    : ${TM_FILEPATH}   "
-echo " "</string>
+echo " "
+osascript -e "tell application \"TextMate\" to set name of window 1 to \"$TM_FILEPATH\"";</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
