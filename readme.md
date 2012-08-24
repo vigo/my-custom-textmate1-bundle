@@ -5,6 +5,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-08-24
+- Show filepath information `alt+cmd+p`
+
 ### 2012-08-23
 -  datetime.datetime, datetime.datetime.now(), datetime.timedelta `dt`
 - Python Docstring test short cuts `.` for ... and `..` for >>>
