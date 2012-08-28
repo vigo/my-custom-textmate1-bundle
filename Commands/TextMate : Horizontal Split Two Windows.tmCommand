@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>osascript "${TM_BUNDLE_SUPPORT}/horizontal_split_two_textmate_windows.applescript"</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~@h</string>
+	<key>name</key>
+	<string>TextMate : Horizontal Split Two Windows</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>0ADE81BA-524D-4918-AFCC-7E7B8592F943</string>
+</dict>
+</plist>

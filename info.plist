@@ -280,6 +280,7 @@
 				<array>
 					<string>97152151-74F8-4AE8-BA75-3CB7E3713E45</string>
 					<string>A73B042D-C3A3-46FB-979D-03E6D05EF817</string>
+					<string>0ADE81BA-524D-4918-AFCC-7E7B8592F943</string>
 				</array>
 				<key>name</key>
 				<string>TextMate</string>
@@ -298,10 +299,11 @@
 				<key>items</key>
 				<array>
 					<string>F4B833A1-255E-4949-BCF8-2FC968F53337</string>
-					<string>456D703C-0E77-41B0-9CE5-D4F975586081</string>
 					<string>336562F4-8A49-49FB-A947-6FF82038C209</string>
 					<string>BC9B117F-BB06-4B99-9262-04E1D4B42D13</string>
 					<string>9488F6D4-C70E-48D9-BBDB-62A50814A147</string>
+					<string>456D703C-0E77-41B0-9CE5-D4F975586081</string>
+					<string>08D4550A-621C-459F-81CE-11F182D32560</string>
 				</array>
 				<key>name</key>
 				<string>Python</string>
@@ -473,6 +475,10 @@
 		<string>FCAC84D7-9A01-4BCC-B7E6-F64D1EEAFEC5</string>
 		<string>B2B397F2-5786-4E5E-8626-AB2C720B9950</string>
 		<string>5C971D2E-A1DF-459F-BDAD-58FB3B48106C</string>
+		<string>A73B042D-C3A3-46FB-979D-03E6D05EF817</string>
+		<string>0ADE81BA-524D-4918-AFCC-7E7B8592F943</string>
+		<string>97152151-74F8-4AE8-BA75-3CB7E3713E45</string>
+		<string>08D4550A-621C-459F-81CE-11F182D32560</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>

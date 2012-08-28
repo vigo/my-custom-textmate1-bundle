@@ -11,8 +11,9 @@ tell application "TextMate"
     set n to count of WindowsList
     
     if n = 1 then return
+    
     if n > 4 then
-        say "sorry, max 4"
+        say "sorry, max 4 windows allowed"
         return
     end if
     

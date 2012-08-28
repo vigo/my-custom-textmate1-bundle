@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>import pprint
+PP = pprint.PrettyPrinter(indent=4)
+</string>
+	<key>name</key>
+	<string>PYTHON : PPrint Init</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ipp</string>
+	<key>uuid</key>
+	<string>08D4550A-621C-459F-81CE-11F182D32560</string>
+</dict>
+</plist>

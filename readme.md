@@ -7,6 +7,8 @@ Twitter: [@ugurozyilmazel][3]
 # Change Log
 ### 2012-08-28
 - `kntrl+alt+cmd+a` Arrange windows (max: 4 windows)
+- `kntrl+alt+cmd+h` Horizontal split two Textmate Windows
+- `ppi+tab` import pprint
 
 ### 2012-08-24
 - Show filepath information `alt+cmd+p` + now outputs in to window title
