@@ -17,8 +17,6 @@
 			<string>------------------------------------</string>
 			<string>DA5A741D-1595-487B-9113-671D22B96A57</string>
 			<string>------------------------------------</string>
-			<string>A48FC6BB-0342-4E0E-82D9-46FCF181F867</string>
-			<string>------------------------------------</string>
 			<string>7A47FA79-B590-4775-906B-155A0C369F57</string>
 			<string>DDB52EC7-BA9D-4BFE-B8F7-CC506D2DAA96</string>
 			<string>------------------------------------</string>
@@ -28,6 +26,8 @@
 			<string>1A6E0239-A52C-4D77-AB06-626AEC242D63</string>
 			<string>------------------------------------</string>
 			<string>39BB4390-8481-4C4D-B456-30754C6B5DC4</string>
+			<string>------------------------------------</string>
+			<string>D49FE06E-AF95-46BD-8CED-547440AF4F5C</string>
 			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
@@ -46,14 +46,8 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
-					<string>EBBB30D4-999D-4036-A4C3-77BD748BAA22</string>
-					<string>C8B892D1-B200-4EFD-901A-258EFE2DFAA7</string>
-					<string>1E01A5C8-5D69-49C1-B483-F06E1EC1B864</string>
-					<string>00491B24-6FD5-4425-BB71-0D376F79CD74</string>
-					<string>FF2BD761-1E7E-41B5-AED2-CD75D2A37B5D</string>
-					<string>5C3F3FD3-A5A2-461E-B4D8-340E605560B1</string>
-					<string>5BAE2658-3462-46EA-A1BF-8E717CEA28A7</string>
+					<string>735D9838-1C80-4C2A-AB36-92DB388E0E16</string>
+					<string>473A621C-A17B-43CC-9E97-8776AC113182</string>
 				</array>
 				<key>name</key>
 				<string>Text</string>
@@ -62,23 +56,15 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
-					<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
-					<string>------------------------------------</string>
 					<string>5F688335-A1E7-476D-BD2B-BB342FB0F4EB</string>
-					<string>------------------------------------</string>
 					<string>5E224102-15B3-4BA8-AF5B-EC3CB4F5EDF1</string>
-					<string>------------------------------------</string>
 					<string>0D0FCFAE-C5B0-47B1-83BA-1A9069512459</string>
-					<string>------------------------------------</string>
+					<string>664C8E4C-206E-4EE6-AAEE-E6DFC78FCBF0</string>
 					<string>4EBF2F59-048D-453B-B889-93B1BC6378BD</string>
-					<string>------------------------------------</string>
+					<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
 					<string>A3087286-619D-440F-9EF1-902FD02988C1</string>
 					<string>92077558-E2FE-4719-B836-7D5AF90685F4</string>
 					<string>5BD6887E-3D23-47D8-AB00-E2D3A65F059F</string>
-					<string>------------------------------------</string>
-					<string>664C8E4C-206E-4EE6-AAEE-E6DFC78FCBF0</string>
-					<string>------------------------------------</string>
 				</array>
 				<key>name</key>
 				<string>DJANGO</string>
@@ -87,7 +73,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>0E7D576D-6AA2-49CC-9D33-15A89D27FDC5</string>
 					<string>1A0C744C-4F7B-4A9D-9E4F-6A1912868A24</string>
 					<string>BE09E52B-1D76-45A5-AFB4-2B16F8C0FA34</string>
@@ -99,11 +84,25 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
 				</array>
 				<key>name</key>
 				<string>Bash</string>
+			</dict>
+			<key>473A621C-A17B-43CC-9E97-8776AC113182</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>EBBB30D4-999D-4036-A4C3-77BD748BAA22</string>
+					<string>C8B892D1-B200-4EFD-901A-258EFE2DFAA7</string>
+					<string>1E01A5C8-5D69-49C1-B483-F06E1EC1B864</string>
+					<string>00491B24-6FD5-4425-BB71-0D376F79CD74</string>
+					<string>FF2BD761-1E7E-41B5-AED2-CD75D2A37B5D</string>
+					<string>5C3F3FD3-A5A2-461E-B4D8-340E605560B1</string>
+					<string>5BAE2658-3462-46EA-A1BF-8E717CEA28A7</string>
+				</array>
+				<key>name</key>
+				<string>Custom Lorem</string>
 			</dict>
 			<key>4EBF2F59-048D-453B-B889-93B1BC6378BD</key>
 			<dict>
@@ -114,6 +113,18 @@
 				</array>
 				<key>name</key>
 				<string>Admin Form</string>
+			</dict>
+			<key>5AF04B88-6814-4D75-AD44-5E87F90B75AC</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>4FD466B5-5760-4E9E-B337-B11237091591</string>
+					<string>D9922540-9749-4D41-83A1-60AC3EDCE7BD</string>
+					<string>C4D6A506-9A46-4ABC-B344-5FBEB54787BB</string>
+					<string>564081D4-7226-45CA-95C6-39D1982492D8</string>
+				</array>
+				<key>name</key>
+				<string>console</string>
 			</dict>
 			<key>5E224102-15B3-4BA8-AF5B-EC3CB4F5EDF1</key>
 			<dict>
@@ -157,11 +168,23 @@
 				<key>name</key>
 				<string>Template Debugging</string>
 			</dict>
+			<key>735D9838-1C80-4C2A-AB36-92DB388E0E16</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>0C0AD66A-13C9-433E-8296-C61383845AB6</string>
+					<string>BD409380-F091-42F7-B876-21480DB29BAB</string>
+					<string>02E9E52B-DC6B-4300-B717-78E6DD106A57</string>
+					<string>4ADC0B38-92D8-47C5-B5CB-1FE3673ACB20</string>
+					<string>A49A287A-C999-456B-BB81-51372F21181C</string>
+				</array>
+				<key>name</key>
+				<string>Turkish Date</string>
+			</dict>
 			<key>76C031EA-04E2-4E36-B65F-9A0428D8C583</key>
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>A1E75DC0-4D28-4EEE-82E3-08ADE5FB56D6</string>
 					<string>4BA3ED48-2179-472A-A744-A4788BAA02A5</string>
 					<string>8CA2AAD5-0ABE-4C8E-B5C4-71BD7375F84F</string>
@@ -174,7 +197,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>878CF41C-E76F-40F7-B339-00D4725276BE</string>
 					<string>50D545B0-4895-4D7B-9C55-562A5BFE2155</string>
 					<string>------------------------------------</string>
@@ -207,7 +229,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>5C971D2E-A1DF-459F-BDAD-58FB3B48106C</string>
 					<string>F3249596-5FB9-424E-90F8-7F244ECCD78A</string>
 					<string>9CB1E563-AB30-4435-B7BC-01AEA5D69D81</string>
@@ -222,27 +243,22 @@
 				<key>name</key>
 				<string>DJANGO Test</string>
 			</dict>
-			<key>A48FC6BB-0342-4E0E-82D9-46FCF181F867</key>
+			<key>C0A68D53-397B-4AE4-BD1A-A9392DCBF0A5</key>
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
-					<string>97152151-74F8-4AE8-BA75-3CB7E3713E45</string>
-					<string>------------------------------------</string>
-					<string>0C0AD66A-13C9-433E-8296-C61383845AB6</string>
-					<string>BD409380-F091-42F7-B876-21480DB29BAB</string>
-					<string>02E9E52B-DC6B-4300-B717-78E6DD106A57</string>
-					<string>4ADC0B38-92D8-47C5-B5CB-1FE3673ACB20</string>
-					<string>A49A287A-C999-456B-BB81-51372F21181C</string>
+					<string>82F5F74D-1197-4068-8573-90D839BBFF9A</string>
+					<string>8AB415A6-7CCF-43BB-9CCA-3CF2B040C94C</string>
+					<string>D172C122-6F9F-4368-99C5-5D68E2600E10</string>
+					<string>29A12BBE-FCFF-4F7B-BF31-6BD0DFBC18BB</string>
 				</array>
 				<key>name</key>
-				<string>General</string>
+				<string>dji18njs</string>
 			</dict>
 			<key>C8D4A818-4073-4C6D-BA83-AA466DBA7DD2</key>
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>96EC35C4-B91B-4D07-84EC-1F8742F9F07F</string>
 					<string>8758F8D1-E9F4-4538-90AF-93C406210923</string>
 					<string>22D8AF99-963F-4263-A289-39BEF2DA1F4E</string>
@@ -258,11 +274,20 @@
 				<key>name</key>
 				<string>HTML</string>
 			</dict>
+			<key>D49FE06E-AF95-46BD-8CED-547440AF4F5C</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>97152151-74F8-4AE8-BA75-3CB7E3713E45</string>
+					<string>A73B042D-C3A3-46FB-979D-03E6D05EF817</string>
+				</array>
+				<key>name</key>
+				<string>TextMate</string>
+			</dict>
 			<key>DA5A741D-1595-487B-9113-671D22B96A57</key>
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
 					<string>5EFD7559-1136-472E-BC01-F1254A3E2857</string>
 				</array>
 				<key>name</key>
@@ -272,10 +297,7 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
-					<string>5E8C3E25-FB95-43DC-8F3D-F1F3D236F80D</string>
-					<string>FCAC84D7-9A01-4BCC-B7E6-F64D1EEAFEC5</string>
-					<string>B2B397F2-5786-4E5E-8626-AB2C720B9950</string>
+					<string>F4B833A1-255E-4949-BCF8-2FC968F53337</string>
 					<string>456D703C-0E77-41B0-9CE5-D4F975586081</string>
 					<string>336562F4-8A49-49FB-A947-6FF82038C209</string>
 					<string>BC9B117F-BB06-4B99-9262-04E1D4B42D13</string>
@@ -288,24 +310,28 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>------------------------------------</string>
-					<string>4FD466B5-5760-4E9E-B337-B11237091591</string>
-					<string>D9922540-9749-4D41-83A1-60AC3EDCE7BD</string>
-					<string>C4D6A506-9A46-4ABC-B344-5FBEB54787BB</string>
-					<string>564081D4-7226-45CA-95C6-39D1982492D8</string>
+					<string>C0A68D53-397B-4AE4-BD1A-A9392DCBF0A5</string>
+					<string>5AF04B88-6814-4D75-AD44-5E87F90B75AC</string>
 					<string>F207078D-1311-4696-80C3-38B8E40A845A</string>
 					<string>BED7DE26-60ED-4A79-9B23-58C7F92E24A4</string>
 					<string>D6B2F57A-3700-4C85-8C6D-83BC47DFF1FB</string>
 					<string>CBAA4DFC-0237-41FC-8B03-DF2B0A8273E0</string>
 					<string>91407739-D35D-4046-9568-6162AC055B1C</string>
 					<string>85F52F00-1D77-4A9B-B86F-B66472C32326</string>
-					<string>82F5F74D-1197-4068-8573-90D839BBFF9A</string>
-					<string>8AB415A6-7CCF-43BB-9CCA-3CF2B040C94C</string>
-					<string>D172C122-6F9F-4368-99C5-5D68E2600E10</string>
-					<string>29A12BBE-FCFF-4F7B-BF31-6BD0DFBC18BB</string>
 				</array>
 				<key>name</key>
 				<string>JavaScript</string>
+			</dict>
+			<key>F4B833A1-255E-4949-BCF8-2FC968F53337</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>5E8C3E25-FB95-43DC-8F3D-F1F3D236F80D</string>
+					<string>FCAC84D7-9A01-4BCC-B7E6-F64D1EEAFEC5</string>
+					<string>B2B397F2-5786-4E5E-8626-AB2C720B9950</string>
+				</array>
+				<key>name</key>
+				<string>datetime</string>
 			</dict>
 		</dict>
 	</dict>
