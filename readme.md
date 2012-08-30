@@ -5,6 +5,10 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-08-30
+- `hr+tap` Markdown horizontal line
+- Markdown heading shortcuts `h1` to `h6` + `tab` 
+
 ### 2012-08-28
 - `kntrl+alt+cmd+a` Arrange windows (max: 4 windows)
 - `kntrl+alt+cmd+h` Horizontal split two Textmate Windows
