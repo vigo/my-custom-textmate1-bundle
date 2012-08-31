@@ -5,6 +5,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-08-31
+- `met+tab` List object methods (Python)
+
 ### 2012-08-30
 - `hr+tap` Markdown horizontal line
 - Markdown heading shortcuts `h1` to `h6` + `tab` 
