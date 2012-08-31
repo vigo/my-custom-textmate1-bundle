@@ -29,6 +29,8 @@
 			<string>------------------------------------</string>
 			<string>D49FE06E-AF95-46BD-8CED-547440AF4F5C</string>
 			<string>------------------------------------</string>
+			<string>ED28B632-F6CB-4233-85CE-BCA9157D0E93</string>
+			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -41,6 +43,20 @@
 				</array>
 				<key>name</key>
 				<string>Template</string>
+			</dict>
+			<key>18173906-10BA-4650-9FB2-ED732C1B6167</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>46F4A476-F67A-41B1-86C2-170595A64129</string>
+					<string>A7E39B24-ADF6-403A-BB5A-0B2BD970A846</string>
+					<string>C9F11912-EE85-40A7-A039-9572486D3C08</string>
+					<string>ADC9703D-BC69-4E11-9EB0-628BA304EA41</string>
+					<string>C74F5B4A-85D5-42F4-927D-EF2EAFFB9BA9</string>
+					<string>B4569CC9-931B-4483-8D1F-455354B38384</string>
+				</array>
+				<key>name</key>
+				<string>Heading</string>
 			</dict>
 			<key>1A6E0239-A52C-4D77-AB06-626AEC242D63</key>
 			<dict>
@@ -67,7 +83,7 @@
 					<string>5BD6887E-3D23-47D8-AB00-E2D3A65F059F</string>
 				</array>
 				<key>name</key>
-				<string>DJANGO</string>
+				<string>Django</string>
 			</dict>
 			<key>3935A5D9-79B3-43B7-B62B-DECD59385944</key>
 			<dict>
@@ -191,7 +207,7 @@
 					<string>249A16FF-DCFB-4692-B0A7-CCA2C68ED4FA</string>
 				</array>
 				<key>name</key>
-				<string>PHP</string>
+				<string>Php</string>
 			</dict>
 			<key>7A47FA79-B590-4775-906B-155A0C369F57</key>
 			<dict>
@@ -241,7 +257,7 @@
 					<string>8DF639A7-7689-470E-A70C-BD153D77FD10</string>
 				</array>
 				<key>name</key>
-				<string>DJANGO Test</string>
+				<string>Django Test</string>
 			</dict>
 			<key>C0A68D53-397B-4AE4-BD1A-A9392DCBF0A5</key>
 			<dict>
@@ -272,7 +288,7 @@
 					<string>3D7A0A59-943C-404B-88AF-CC37946ED0A0</string>
 				</array>
 				<key>name</key>
-				<string>HTML</string>
+				<string>Html</string>
 			</dict>
 			<key>D49FE06E-AF95-46BD-8CED-547440AF4F5C</key>
 			<dict>
@@ -324,6 +340,16 @@
 				</array>
 				<key>name</key>
 				<string>JavaScript</string>
+			</dict>
+			<key>ED28B632-F6CB-4233-85CE-BCA9157D0E93</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>62942B2F-5D5A-461E-8746-58FAA23119FA</string>
+					<string>18173906-10BA-4650-9FB2-ED732C1B6167</string>
+				</array>
+				<key>name</key>
+				<string>Markdown</string>
 			</dict>
 			<key>F4B833A1-255E-4949-BCF8-2FC968F53337</key>
 			<dict>
