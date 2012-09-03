@@ -181,8 +181,8 @@ def main():
         RUN_INDIVIDUAL_TESTS = False
 
         hash_app_name = re.findall(r"# *?APP = (\w+)", DATA)
-        classes_and_methods = re.findall(r"class (.+)\(TestCase\):"\
-            "| +def (test_.+)\(self\):", DATA)
+        ref = re.compile(r"^class (.+)\(TestCase\):|^ +def (test_.+)\(self\):", re.MULTILINE)
+        classes_and_methods = re.findall(ref, DATA)
 
         if len(hash_app_name) == 0:
             print_html(html=error_print(
