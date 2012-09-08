@@ -145,7 +145,7 @@ def main():
                 text=ERROR_MESSAGES['CLASSES_METHODS_NOT_FOUND'] % TM_FILENAME)
             )
             return 0
-        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(model)s"
+        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(model)s --noinput"
         
         RUN_INDIVIDUAL_MODELS = False
         if len(hash_test) > 0:
@@ -194,7 +194,7 @@ def main():
             RUN_INDIVIDUAL_TESTS = True
 
         application_name = hash_app_name[-1:][0]
-        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(test)s"
+        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(test)s --noinput"
         if RUN_INDIVIDUAL_TESTS:
             output.append(tag('h2', "Individual Tests... %s" % len(hash_test)))
             for testcase in hash_test:
