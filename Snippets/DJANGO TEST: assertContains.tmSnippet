@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>self.assertContains(response, "${1:text}"${2:, status_code=200}${3:, count=1}${4:, html=true})$0
+	<string>self.assertContains(response, "${1:text}"${2:, status_code=200}${3:, count=1}${4:, html=True})$0
 </string>
 	<key>name</key>
 	<string>DJANGO TEST: assertContains</string>
