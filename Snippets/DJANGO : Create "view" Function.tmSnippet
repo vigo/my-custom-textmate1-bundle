@@ -7,8 +7,9 @@
     """docstring for $1"""
     # hdbg(u"view: %s.%s" % (__name__, "function_name"))
     return HttpResponse("view: $1")
-    # return HttpResponse(["%s = %s" % (i, locals()[i]) for i in locals().keys() if not i == 'request'])
-    # return r('page.html', params, request)</string>
+    # return HttpResponse('&lt;br/&gt;'.join(['%s = %s' % (i, locals()[i]) for i in locals().keys() if not i == 'request']))   
+    # return r('page.html', params, request)
+</string>
 	<key>name</key>
 	<string>DJANGO : Create "view" Function</string>
 	<key>scope</key>

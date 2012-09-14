@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>hdbg(["%s = %s" % (i, locals()[i]) for i in locals().keys() if not i == 'request'])$0</string>
+	<string>hdbg(['%s = %s&lt;br/&gt;' % (i, locals()[i]) for i in locals().keys() if not i == 'request'])$0</string>
 	<key>name</key>
 	<string>DJANGO : html_debugger Params</string>
 	<key>scope</key>
