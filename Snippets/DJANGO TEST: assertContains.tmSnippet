@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>DJANGO TEST: assertContains</string>
 	<key>scope</key>
-	<string>source.python</string>
+	<string>source.python.django</string>
 	<key>tabTrigger</key>
 	<string>ase</string>
 	<key>uuid</key>

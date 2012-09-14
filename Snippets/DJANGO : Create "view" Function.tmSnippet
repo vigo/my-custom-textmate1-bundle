@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:view_name}(request):
+    """docstring for $1"""
+    # hdbg(u"view: %s.%s" % (__name__, "function_name"))
+    return HttpResponse("view: $1")
+    # return HttpResponse(["heyyo! %s = %s" % (i, locals()[i]) for i in locals().keys() if not i == 'request'])
+    # return r('page.html', params, request)</string>
+	<key>name</key>
+	<string>DJANGO : Create "view" Function</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>defv</string>
+	<key>uuid</key>
+	<string>3CCEDA3D-35C6-4819-A53B-50C0A4B336B3</string>
+</dict>
+</plist>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>DJANGO TEST: assertTemplateUsed</string>
 	<key>scope</key>
-	<string>source.python</string>
+	<string>source.python.django</string>
 	<key>tabTrigger</key>
 	<string>ase</string>
 	<key>uuid</key>

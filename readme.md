@@ -5,6 +5,10 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-09-14
+- `defv` : Create view function for Django views.py
+- `view` : Create views.py template
+
 ### 2012-08-31
 - `met+tab` List object methods (Python)
 
