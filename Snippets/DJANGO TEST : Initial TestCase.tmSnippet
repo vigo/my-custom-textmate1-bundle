@@ -5,7 +5,8 @@
 	<key>content</key>
 	<string>class ${1:Model}Test(TestCase):
     """doc string for $1Test"""
-    
+    # fixtures = ['fixture.json',]
+
     def setUp(self):
         """this is the initial moment"""
         # self.${1/(\w*)/\L$1/} = $1.objects.create()
