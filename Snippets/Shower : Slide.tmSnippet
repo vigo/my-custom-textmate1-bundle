@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="slide" id="${1:url}"&gt;&lt;div&gt;
+    &lt;section&gt;
+        &lt;header&gt;
+            &lt;h2&gt;${2:Title}&lt;/h2&gt;
+        &lt;/header&gt;
+		$0
+    &lt;/section&gt;
+&lt;/div&gt;&lt;/div&gt;
+</string>
+	<key>name</key>
+	<string>Shower : Slide</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>slide</string>
+	<key>uuid</key>
+	<string>F952E2FC-F2CA-438E-B071-B49EA8D32DA8</string>
+</dict>
+</plist>

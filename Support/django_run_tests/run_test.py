@@ -181,9 +181,9 @@ def main():
         RUN_INDIVIDUAL_TESTS = False
 
         hash_app_name = re.findall(r"# *?APP = (\w+)", DATA)
-        ref = re.compile(r"^class (.+)\(TestCase\):|^ +def (test_.+)\(self\):", re.MULTILINE)
+        ref = re.compile(r"^class (.+)\(.*?TestCase\):|^ +def (test_.+)\(self\):", re.MULTILINE)
         classes_and_methods = re.findall(ref, DATA)
-
+        # print classes_and_methods
         if len(hash_app_name) == 0:
             print_html(html=error_print(
                 text=ERROR_MESSAGES['HASH_APP_NOT_FOUND'])
@@ -217,6 +217,7 @@ def main():
             output.append(tag('h2', "All Tests..."))
             to_test = []
             last_processed_class_name = ""
+            class_name = ""
             j = -1
             for i in range(len(classes_and_methods)):
                 if len(classes_and_methods[i][0]) > 0:
@@ -227,12 +228,12 @@ def main():
                 else:
                     if class_name == last_processed_class_name:
                         to_test[j][1].append(classes_and_methods[i][1])
-
+            
             if len(to_test) == 0:
                 print_html(html=error_print(
                     text="<code>to_test</code> list returned empty"))
                 return 0
-
+            
             for item in to_test:
                 class_name = item[0]
                 for method_name in item[1]:

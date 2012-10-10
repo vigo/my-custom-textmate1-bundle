@@ -5,6 +5,11 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-10-10
+- `slide`, `demo`, `tag`
+- `met`
+- `hdbg`
+
 ### 2012-09-14
 - `defv` : Create view function for Django views.py
 - `view` : Create views.py template

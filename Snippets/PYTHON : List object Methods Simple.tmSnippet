@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[${2:method} for $2 in dir(${1:Object}) if not $2.startswith('_')]</string>
+	<key>name</key>
+	<string>PYTHON : List object Methods Simple</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>met</string>
+	<key>uuid</key>
+	<string>3FE19C5B-BA69-4861-A998-741074540540</string>
+</dict>
+</plist>
