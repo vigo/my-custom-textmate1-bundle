@@ -5,6 +5,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-10-13
+- `ppr`, `ddr` : Django Template Debugging
+
 ### 2012-10-10
 - `slide`, `demo`, `tag`
 - `met`

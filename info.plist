@@ -31,8 +31,8 @@
 			<string>------------------------------------</string>
 			<string>ED28B632-F6CB-4233-85CE-BCA9157D0E93</string>
 			<string>------------------------------------</string>
-			<string>F952E2FC-F2CA-438E-B071-B49EA8D32DA8</string>
-			<string>F849AC61-9765-4396-B1CA-26FA95CA3A85</string>
+			<string>BA891265-AFA4-4445-81A3-38185A1962EE</string>
+			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -88,6 +88,17 @@
 				</array>
 				<key>name</key>
 				<string>Django</string>
+			</dict>
+			<key>3672BB7E-636F-406A-81AF-9A90F56C52CE</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F952E2FC-F2CA-438E-B071-B49EA8D32DA8</string>
+					<string>F849AC61-9765-4396-B1CA-26FA95CA3A85</string>
+					<string>035F3CA0-0515-42A6-8A1E-F87CDD0AF42A</string>
+				</array>
+				<key>name</key>
+				<string>Shower HTML Slide - Presentation</string>
 			</dict>
 			<key>3935A5D9-79B3-43B7-B62B-DECD59385944</key>
 			<dict>
@@ -185,6 +196,8 @@
 					<string>66EEB8F4-722F-497B-8AB5-77E0933B0DB2</string>
 					<string>C53CB67D-A239-46EE-9BE7-9B5312FF5918</string>
 					<string>6A153C57-9665-40F9-A1DC-44B8D02FECB3</string>
+					<string>E99683D3-7E65-46A6-95AE-38DC728426D5</string>
+					<string>05D2EC9A-82BC-480E-BF1E-CB5747DA2CCE</string>
 				</array>
 				<key>name</key>
 				<string>Template Debugging</string>
@@ -263,6 +276,15 @@
 				<key>name</key>
 				<string>Django Test</string>
 			</dict>
+			<key>BA891265-AFA4-4445-81A3-38185A1962EE</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>3672BB7E-636F-406A-81AF-9A90F56C52CE</string>
+				</array>
+				<key>name</key>
+				<string>Other</string>
+			</dict>
 			<key>C0A68D53-397B-4AE4-BD1A-A9392DCBF0A5</key>
 			<dict>
 				<key>items</key>
@@ -325,6 +347,7 @@
 					<string>456D703C-0E77-41B0-9CE5-D4F975586081</string>
 					<string>08D4550A-621C-459F-81CE-11F182D32560</string>
 					<string>8DB9ED84-D66B-44C9-9910-1DF09E9EDBFD</string>
+					<string>3FE19C5B-BA69-4861-A998-741074540540</string>
 				</array>
 				<key>name</key>
 				<string>Python</string>
@@ -524,6 +547,8 @@
 		<string>F952E2FC-F2CA-438E-B071-B49EA8D32DA8</string>
 		<string>F849AC61-9765-4396-B1CA-26FA95CA3A85</string>
 		<string>035F3CA0-0515-42A6-8A1E-F87CDD0AF42A</string>
+		<string>E99683D3-7E65-46A6-95AE-38DC728426D5</string>
+		<string>05D2EC9A-82BC-480E-BF1E-CB5747DA2CCE</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
