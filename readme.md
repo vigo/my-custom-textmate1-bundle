@@ -1,10 +1,15 @@
 # Info
+
 Author: [Uğur Özyılmazel][1]  
 Email: [ugur@ozyilmazel.com][2]  
 Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-10-28
+- `tern` : Python Ternary
+- `sh`: Markdown backtick codeblock
+
 ### 2012-10-13
 - `ppr`, `ddr` : Django Template Debugging
 

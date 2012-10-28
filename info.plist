@@ -348,6 +348,7 @@
 					<string>08D4550A-621C-459F-81CE-11F182D32560</string>
 					<string>8DB9ED84-D66B-44C9-9910-1DF09E9EDBFD</string>
 					<string>3FE19C5B-BA69-4861-A998-741074540540</string>
+					<string>036CFE89-D70F-4ED8-8A44-043DB4FB44AF</string>
 				</array>
 				<key>name</key>
 				<string>Python</string>
@@ -373,6 +374,7 @@
 				<key>items</key>
 				<array>
 					<string>62942B2F-5D5A-461E-8746-58FAA23119FA</string>
+					<string>7B8413C0-4B36-4EA4-B451-293E54C9C785</string>
 					<string>18173906-10BA-4650-9FB2-ED732C1B6167</string>
 				</array>
 				<key>name</key>
@@ -544,11 +546,13 @@
 		<string>C74F5B4A-85D5-42F4-927D-EF2EAFFB9BA9</string>
 		<string>B4569CC9-931B-4483-8D1F-455354B38384</string>
 		<string>62942B2F-5D5A-461E-8746-58FAA23119FA</string>
+		<string>7B8413C0-4B36-4EA4-B451-293E54C9C785</string>
 		<string>F952E2FC-F2CA-438E-B071-B49EA8D32DA8</string>
 		<string>F849AC61-9765-4396-B1CA-26FA95CA3A85</string>
 		<string>035F3CA0-0515-42A6-8A1E-F87CDD0AF42A</string>
 		<string>E99683D3-7E65-46A6-95AE-38DC728426D5</string>
 		<string>05D2EC9A-82BC-480E-BF1E-CB5747DA2CCE</string>
+		<string>036CFE89-D70F-4ED8-8A44-043DB4FB44AF</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
