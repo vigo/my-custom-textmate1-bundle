@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;item&gt;
+    &lt;title&gt;Bölüm # ${1:007}&lt;/title&gt;
+    &lt;pubDate&gt;`ruby -e 'require "Date";print DateTime.now.strftime("%a, %d %b %Y %H:%M:%S %z")'`&lt;/pubDate&gt;
+    &lt;description&gt;${2:Description}&lt;/description&gt;
+    &lt;itunes:summary&gt;$2&lt;/itunes:summary&gt;
+    &lt;itunes:subtitle&gt;$2&lt;/itunes:subtitle&gt;
+    &lt;enclosure url="${3:url}" length="${4:byte}" type="audio/x-m4a"/&gt;
+    &lt;guid isPermaLink="false"&gt;${5:Tumblr URL}&lt;/guid&gt;
+    &lt;itunes:duration&gt;${6:Duration 34:06}&lt;/itunes:duration&gt;
+    &lt;itunes:keywords&gt;${7:keywords}&lt;/itunes:keywords&gt;
+&lt;/item&gt;
+</string>
+	<key>name</key>
+	<string>devPod item</string>
+	<key>tabTrigger</key>
+	<string>devpod</string>
+	<key>uuid</key>
+	<string>F74A6E44-4E3D-4D5D-95B5-CB768D4CEE38</string>
+</dict>
+</plist>

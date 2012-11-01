@@ -6,6 +6,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-11-02
+- `devpod` rss item has been added
+
 ### 2012-10-28
 - `tern` : Python Ternary
 - `sh`: Markdown backtick codeblock
