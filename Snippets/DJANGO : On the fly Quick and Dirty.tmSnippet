@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys, datetime
+import pprint
+PP = pprint.PrettyPrinter(indent=4)
+if os.environ.get('VIRTUAL_ENV', None):
+    sys.path.append(os.environ['VIRTUAL_ENV'])
+    sys.path.append("%s%s" % (os.environ['VIRTUAL_ENV'], "/lib/python2.7/site-packages"))
+    sys.path.append("%s%s" % (os.environ['VIRTUAL_ENV'], "/src/memcache-debug-panel"))
+    sys.path.append("%s%s" % (os.environ['VIRTUAL_ENV'], "/src/django-devserver"))    
+
+    # add your django project path here...
+    # sys.path.append('/Users/vigo/Development/Edfor/edfor')
+    
+    from django.core.management import setup_environ
+    
+    import edfor.settings.dev
+    setup_environ(edfor.settings.dev)
+    
+    if __name__ == "__main__":
+        print "ok"
+else:
+    print "You need VIRTUAL_ENV"
+</string>
+	<key>name</key>
+	<string>DJANGO : On the fly Quick and Dirty</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>dirty</string>
+	<key>uuid</key>
+	<string>05F5D487-3636-48F3-9315-F14168273BD9</string>
+</dict>
+</plist>
