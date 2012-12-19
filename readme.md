@@ -6,6 +6,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2012-12-19
+- `del` : Css and Bash comment delimeter
+
 ### 2012-11-02
 - `devpod` rss item has been added
 

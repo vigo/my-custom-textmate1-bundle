@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>for ${1:item} in \${${2:array}[@]}; do
-    echo \$${1:item}$0
-done
-</string>
+	<string>/* ------------------------------------------------------------------------ */</string>
 	<key>name</key>
-	<string>Bash : forin (Bash Array)</string>
+	<string>CSS : Comment Delimiter</string>
 	<key>scope</key>
-	<string>source.shell</string>
+	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>forin</string>
+	<string>del</string>
 	<key>uuid</key>
-	<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
+	<string>7C31AE3D-309C-40DA-8CE0-E8B49C59E662</string>
 </dict>
 </plist>

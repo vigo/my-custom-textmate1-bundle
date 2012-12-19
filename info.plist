@@ -8,6 +8,7 @@
 		<array>
 			<string>------------------------------------</string>
 			<string>C8D4A818-4073-4C6D-BA83-AA466DBA7DD2</string>
+			<string>A6A2E4D0-AB5A-44C7-A2B0-944A16EDC649</string>
 			<string>------------------------------------</string>
 			<string>DF9A4DD9-7F22-4940-AA1D-DFF6AC2F5953</string>
 			<string>------------------------------------</string>
@@ -76,6 +77,7 @@
 				<array>
 					<string>3CCEDA3D-35C6-4819-A53B-50C0A4B336B3</string>
 					<string>BCD03E68-B09D-46C1-9E11-B31C98DFF74D</string>
+					<string>05F5D487-3636-48F3-9315-F14168273BD9</string>
 					<string>5F688335-A1E7-476D-BD2B-BB342FB0F4EB</string>
 					<string>5E224102-15B3-4BA8-AF5B-EC3CB4F5EDF1</string>
 					<string>0D0FCFAE-C5B0-47B1-83BA-1A9069512459</string>
@@ -116,6 +118,7 @@
 				<key>items</key>
 				<array>
 					<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
+					<string>F2E24D46-D454-4886-A2BA-0C6F04EAA76D</string>
 				</array>
 				<key>name</key>
 				<string>Bash</string>
@@ -275,6 +278,15 @@
 				</array>
 				<key>name</key>
 				<string>Django Test</string>
+			</dict>
+			<key>A6A2E4D0-AB5A-44C7-A2B0-944A16EDC649</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>7C31AE3D-309C-40DA-8CE0-E8B49C59E662</string>
+				</array>
+				<key>name</key>
+				<string>CSS</string>
 			</dict>
 			<key>BA891265-AFA4-4445-81A3-38185A1962EE</key>
 			<dict>
