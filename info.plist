@@ -283,6 +283,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>7FCFADF3-044B-4D43-8591-1D4F6150B6B6</string>
 					<string>7C31AE3D-309C-40DA-8CE0-E8B49C59E662</string>
 				</array>
 				<key>name</key>
@@ -569,6 +570,10 @@
 		<string>05D2EC9A-82BC-480E-BF1E-CB5747DA2CCE</string>
 		<string>036CFE89-D70F-4ED8-8A44-043DB4FB44AF</string>
 		<string>F74A6E44-4E3D-4D5D-95B5-CB768D4CEE38</string>
+		<string>F2E24D46-D454-4886-A2BA-0C6F04EAA76D</string>
+		<string>7C31AE3D-309C-40DA-8CE0-E8B49C59E662</string>
+		<string>7FCFADF3-044B-4D43-8591-1D4F6150B6B6</string>
+		<string>05F5D487-3636-48F3-9315-F14168273BD9</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
