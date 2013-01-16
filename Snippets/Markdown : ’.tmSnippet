@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${0:${TM_SELECTED_TEXT/\A&lt;code&gt;(.*)&lt;\/code&gt;\z|.*/(?1:$1:&lt;code&gt;$0&lt;\/code&gt;)/m}}</string>
+	<string>’</string>
 	<key>keyEquivalent</key>
-	<string>^c</string>
+	<string>~'</string>
 	<key>name</key>
-	<string>HTML : &lt;code&gt;</string>
+	<string>Markdown : ’</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>rb</string>
 	<key>uuid</key>
-	<string>67E220F4-44DE-4CFA-AC8A-7661692DD5E7</string>
+	<string>BFD0B8C9-BED8-4A73-9C8A-11C22424C02E</string>
 </dict>
 </plist>

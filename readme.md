@@ -6,6 +6,9 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### isoD
+- `alt+shift+2` : ’ for markdown
+
 ### 2013-01-10
 - `shift+cmd+b` : <small> + <span>
 - `opt+shift+cmd+c`: <code>
