@@ -6,7 +6,11 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
-### isoD
+### 2013-01-25
+
+- Django testing command now supports `SETTINGS`
+
+### 2013-01-25
 - `alt+shift+2` : ’ for markdown
 
 ### 2013-01-10

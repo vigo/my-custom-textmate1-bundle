@@ -6,6 +6,10 @@
 	<string>saveActiveFile</string>
 	<key>command</key>
 	<string># Notes:
+
+# SETTINGS = your.settings.file
+
+
 # Model testing:
 # to test individual model(s) add:
 # TEST = model_name

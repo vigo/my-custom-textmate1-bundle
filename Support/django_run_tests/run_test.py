@@ -20,6 +20,7 @@ TM_PROJECT_DIRECTORY = os.environ['TM_PROJECT_DIRECTORY']
 TM_BUNDLE_SUPPORT    = os.environ['TM_BUNDLE_SUPPORT']
 HTML_BUNDLE          = "%s/django_run_tests/html" % TM_BUNDLE_SUPPORT
 APP                  = os.path.basename(TM_DIRECTORY)
+DEFAULT_SETTINGS     = ""
 
 ERROR_MESSAGES = {
     'APP_NAME': """
@@ -134,6 +135,9 @@ def main():
     
     DATA = read_file(TM_FILEPATH)
     
+    settings_file = re.search(r"[^#] *?SETTINGS = ([\w.]+)", DATA)
+    if settings_file:
+        DEFAULT_SETTINGS = " --settings=%s" % settings_file.groups()[0]
     hash_test = re.findall(r"[^#]# *?TEST = ([\w.]+)", DATA)
     
     if TM_FILENAME == 'models.py':
@@ -145,7 +149,7 @@ def main():
                 text=ERROR_MESSAGES['CLASSES_METHODS_NOT_FOUND'] % TM_FILENAME)
             )
             return 0
-        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(model)s --noinput"
+        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(model)s --noinput %(settings)s"
         
         RUN_INDIVIDUAL_MODELS = False
         if len(hash_test) > 0:
@@ -160,15 +164,17 @@ def main():
                     'manage_py': TM_PROJECT_DIRECTORY,
                     'app': APP,
                     'model': model,
+                    'settings': DEFAULT_SETTINGS,
                 })
         else:
             output.append(tag('h2', "Model Test(s)... %s" % len(models)))
             for model in models:
                 output.append(tag('h4', "<small>%s</small>.%s" % (APP, model)))
-            test_cmds = ["%(python)s %(manage_py)s/manage.py test %(app)s" % {
+            test_cmds = ["%(python)s %(manage_py)s/manage.py test %(app)s %(settings)s" % {
                 'python': PYTHON,
                 'manage_py': TM_PROJECT_DIRECTORY,
                 'app': APP,
+                'settings': DEFAULT_SETTINGS,
             }]
         for test in test_cmds:
             output.append(tag('h5', '%s' % test, html_class="code"))
@@ -194,7 +200,7 @@ def main():
             RUN_INDIVIDUAL_TESTS = True
 
         application_name = hash_app_name[-1:][0]
-        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(test)s --noinput"
+        shell_cmd = "%(python)s %(manage_py)s/manage.py test %(app)s.%(test)s --noinput %(settings)s"
         if RUN_INDIVIDUAL_TESTS:
             output.append(tag('h2', "Individual Tests... %s" % len(hash_test)))
             for testcase in hash_test:
@@ -203,6 +209,7 @@ def main():
                     'manage_py': TM_PROJECT_DIRECTORY,
                     'app': application_name,
                     'test': testcase,
+                    'settings': DEFAULT_SETTINGS,
                 }
                 output.append(tag('h5', '%s.%s' % (application_name, testcase), html_class="code"))
                 output.append(tag('pre', run_shell_command(run_test)))
@@ -243,6 +250,7 @@ def main():
                         'manage_py': TM_PROJECT_DIRECTORY,
                         'app': application_name,
                         'test': testcase,
+                        'settings': DEFAULT_SETTINGS,
                     }
                     output.append(tag('h5', '%s.%s' % (application_name, testcase), html_class="code"))
                     output.append(tag('pre', run_shell_command(run_test)))
