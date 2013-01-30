@@ -20,6 +20,7 @@
 			<string>------------------------------------</string>
 			<string>7A47FA79-B590-4775-906B-155A0C369F57</string>
 			<string>DDB52EC7-BA9D-4BFE-B8F7-CC506D2DAA96</string>
+			<string>3C718EFB-4A08-4031-B262-6F5B95D731DC</string>
 			<string>------------------------------------</string>
 			<string>360424A5-ECDC-425A-95D9-9E6B6764180E</string>
 			<string>909B5073-667E-40A2-A747-8DC4E58EECF9</string>
@@ -122,6 +123,15 @@
 				</array>
 				<key>name</key>
 				<string>Bash</string>
+			</dict>
+			<key>3C718EFB-4A08-4031-B262-6F5B95D731DC</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>D5415919-9BEF-4F61-8B10-66184B5E224E</string>
+				</array>
+				<key>name</key>
+				<string>Ruby</string>
 			</dict>
 			<key>473A621C-A17B-43CC-9E97-8776AC113182</key>
 			<dict>
@@ -268,6 +278,7 @@
 				<array>
 					<string>5C971D2E-A1DF-459F-BDAD-58FB3B48106C</string>
 					<string>9CB1E563-AB30-4435-B7BC-01AEA5D69D81</string>
+					<string>BABBF298-3ED5-4869-8E48-046F93ED4E8D</string>
 					<string>48150D9D-33AA-4C04-BE01-142A38BF623D</string>
 					<string>0245A2A4-5CD5-444E-B2EE-5B9C12FDE4D9</string>
 					<string>99FA1E2F-DF2A-46BD-A405-47B81237916F</string>
@@ -535,6 +546,7 @@
 		<string>786C2535-A384-4302-85BE-015CDFBC0476</string>
 		<string>50AE08A1-98F2-4BD7-A46E-2DCF0AFC1974</string>
 		<string>9CB1E563-AB30-4435-B7BC-01AEA5D69D81</string>
+		<string>BABBF298-3ED5-4869-8E48-046F93ED4E8D</string>
 		<string>48150D9D-33AA-4C04-BE01-142A38BF623D</string>
 		<string>0245A2A4-5CD5-444E-B2EE-5B9C12FDE4D9</string>
 		<string>99FA1E2F-DF2A-46BD-A405-47B81237916F</string>
@@ -582,6 +594,7 @@
 		<string>E1E61B1A-EDCE-4866-A9E6-D1F60A715CDC</string>
 		<string>3C0B759B-2A0F-47FF-9AC3-6AB02419A8ED</string>
 		<string>67E220F4-44DE-4CFA-AC8A-7661692DD5E7</string>
+		<string>D5415919-9BEF-4F61-8B10-66184B5E224E</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>

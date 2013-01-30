@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.assertNumQueries(${1:Number}, ${2:_function|Post.objecst.all|lambda: my_function(using=7)})$0
+</string>
+	<key>name</key>
+	<string>DJANGO TEST: assertNumQueries</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>ase</string>
+	<key>uuid</key>
+	<string>BABBF298-3ED5-4869-8E48-046F93ED4E8D</string>
+</dict>
+</plist>

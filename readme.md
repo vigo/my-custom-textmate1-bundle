@@ -6,6 +6,10 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2013-01-30
+
+- `utf8` : Ruby; `# coding: utf-8`
+
 ### 2013-01-25
 
 - Django testing command now supports `SETTINGS`
