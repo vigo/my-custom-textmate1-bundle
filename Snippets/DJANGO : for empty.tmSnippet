@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% for ${1:item} in ${2:data} %}
+    {{ $1 }}
+{% empty %}
+    {% trans "Sorry no item found" %}
+{% endfor %}$0</string>
+	<key>name</key>
+	<string>DJANGO : for empty</string>
+	<key>scope</key>
+	<string>text.html.django</string>
+	<key>tabTrigger</key>
+	<string>for</string>
+	<key>uuid</key>
+	<string>D1E3C6D2-1579-4839-8A7A-0F00F4E5EA32</string>
+</dict>
+</plist>

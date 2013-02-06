@@ -6,6 +6,11 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2013-02-06
+
+- `for` : Django Template, for / empty
+- `wit` : Django Template, with
+
 ### 2013-01-30
 
 - `utf8` : Ruby; `# coding: utf-8`

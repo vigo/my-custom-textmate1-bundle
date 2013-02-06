@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% with ${1:temp_var}=${2:param_var} %}
+$0
+{% endwith %}</string>
+	<key>name</key>
+	<string>DJANGO : with</string>
+	<key>scope</key>
+	<string>text.html.django</string>
+	<key>tabTrigger</key>
+	<string>wit</string>
+	<key>uuid</key>
+	<string>5F611253-6929-473C-84A0-05E1CF01736C</string>
+</dict>
+</plist>
