@@ -3,7 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;pre&gt;{{ ${1:Object}|ddir:0 }}&lt;/pre&gt;</string>
+	<string>{% if IS_DEBUG %}
+	&lt;pre&gt;{{ ${1:Object}|ddir:0 }}&lt;/pre&gt;
+{% endif %}
+</string>
 	<key>name</key>
 	<string>DJANGO: ddir</string>
 	<key>scope</key>

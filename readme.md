@@ -6,6 +6,10 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2013-02-08
+
+- `ppr`, `ddr` has now `IS_DEBUG` template control
+
 ### 2013-02-06
 
 - `for` : Django Template, for / empty
