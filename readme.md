@@ -6,6 +6,12 @@ Twitter: [@ugurozyilmazel][3]
 
 
 # Change Log
+### 2013-04-19
+
+- `pre` for Django Template
+- nano config file
+- `utf8` for Ruby Script
+
 ### 2013-02-08
 
 - `ppr`, `ddr` has now `IS_DEBUG` template control

@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string># -*- encoding: utf-8 -*-</string>
+	<string>{% if IS_DEBUG %}
+	&lt;pre&gt;$1&lt;/pre&gt;
+{% endif %}
+</string>
 	<key>name</key>
-	<string>RUBY : UTF-8</string>
+	<string>DJANGO : pre</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>text.html.django</string>
 	<key>tabTrigger</key>
-	<string>utf8</string>
+	<string>pre</string>
 	<key>uuid</key>
-	<string>D5415919-9BEF-4F61-8B10-66184B5E224E</string>
+	<string>3DCAA99A-3221-417E-B2DB-B47368E37593</string>
 </dict>
 </plist>

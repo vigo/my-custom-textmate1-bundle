@@ -13,7 +13,7 @@
 	<key>foldingStopMarker</key>
 	<string></string>
 	<key>name</key>
-	<string>Nano config file, .nanorc</string>
+	<string>Nano Config</string>
 	<key>patterns</key>
 	<array>
 		<dict>
