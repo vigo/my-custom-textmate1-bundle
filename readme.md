@@ -3,6 +3,16 @@
 Author: [Uğur Özyılmazel][1]  
 Email: [ugur@ozyilmazel.com][2]  
 Twitter: [@ugurozyilmazel][3]
+         [@vigobronx][4]
+
+## Install
+
+Works with TextMate 1.5 < 2
+
+    cd "~/Library/Application Support/TextMate/Bundles"
+    git clone git://github.com/vigo/my-custom-textmate1-bundle.git
+    osascript -e 'tell app "TextMate" to reload bundles'
+
 
 
 # Change Log
@@ -387,5 +397,6 @@ the repository...
 [1]: http://ugur.ozyilmazel.com "Official Homepage"
 [2]: mailto:ugur@ozyilmazel.com
 [3]: http://twitter.com/ugurozyilmazel
+[4]: http://twitter.com/vigobronx
 
 [L01]: http://html5boilerplate.com
