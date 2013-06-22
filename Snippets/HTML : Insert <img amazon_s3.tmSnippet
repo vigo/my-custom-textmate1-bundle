@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="&lt;%= @amazon_s3 %&gt;${1:URL}" alt="${2:#}" /&gt;
+</string>
+	<key>name</key>
+	<string>HTML : Insert &lt;img amazon_s3</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>img</string>
+	<key>uuid</key>
+	<string>FA8EE893-5FFE-4DAB-ABF7-F27DF4EAD577</string>
+</dict>
+</plist>
