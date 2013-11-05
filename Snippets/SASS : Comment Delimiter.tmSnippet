@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>self.assertGreaterEqual(${1:First}, ${2:Second}${3:, ${4:Message}})$0
-</string>
+	<string>// ---------------------------------------------------------------------------</string>
 	<key>name</key>
-	<string>PYTHON TEST: assertGreaterEqual</string>
+	<string>SASS : Comment Delimiter</string>
 	<key>scope</key>
-	<string>source.python,source.python.django</string>
+	<string>source.sass,source.scss</string>
 	<key>tabTrigger</key>
-	<string>ase</string>
+	<string>del</string>
 	<key>uuid</key>
-	<string>D63E661F-FE60-4259-9C5D-B8B972C9C10A</string>
+	<string>14D75A0C-9BC9-49C0-BB4E-A764874CD678</string>
 </dict>
 </plist>

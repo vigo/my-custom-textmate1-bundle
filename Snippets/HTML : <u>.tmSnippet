@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${0:${TM_SELECTED_TEXT/\A&lt;small&gt;(.*)&lt;\/small&gt;\z|.*/(?1:$1:&lt;small&gt;$0&lt;\/small&gt;)/m}}</string>
+	<string>${0:${TM_SELECTED_TEXT/\A&lt;u&gt;(.*)&lt;\/u&gt;\z|.*/(?1:$1:&lt;u&gt;$0&lt;\/u&gt;)/m}}</string>
 	<key>keyEquivalent</key>
-	<string>@B</string>
+	<string>@u</string>
 	<key>name</key>
-	<string>HTML : &lt;small&gt;</string>
+	<string>HTML : &lt;u&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>uuid</key>
-	<string>D420AAE6-A4B2-429D-87FC-201C683F2C8B</string>
+	<string>C24DB2C5-1EF2-4EF2-BFB8-304CA7F085C3</string>
 </dict>
 </plist>

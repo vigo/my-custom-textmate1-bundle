@@ -3,16 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:field_name} = models.ForeignKey(${2:ModelName})
-$0
-</string>
+	<string>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
 	<key>name</key>
-	<string>DJANGO : Model Field : ForeignKey</string>
-	<key>scope</key>
-	<string>source.python.django</string>
+	<string>Text: Lorem 1 line</string>
 	<key>tabTrigger</key>
-	<string>FKm</string>
+	<string>lorem</string>
 	<key>uuid</key>
-	<string>93D09A4C-E4DF-4C7B-AA83-E112D7903C08</string>
+	<string>D2C54285-AF9A-4F32-952D-BE41A39C45C3</string>
 </dict>
 </plist>

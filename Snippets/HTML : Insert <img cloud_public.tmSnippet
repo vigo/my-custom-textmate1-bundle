@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>self.assertGreaterEqual(${1:First}, ${2:Second}${3:, ${4:Message}})$0
+	<string>&lt;img src="&lt;%= @cloud_public %&gt;${1:URL}" alt="${2:#}" /&gt;
 </string>
 	<key>name</key>
-	<string>PYTHON TEST: assertGreaterEqual</string>
+	<string>HTML : Insert &lt;img cloud_public</string>
 	<key>scope</key>
-	<string>source.python,source.python.django</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>ase</string>
+	<string>img</string>
 	<key>uuid</key>
-	<string>D63E661F-FE60-4259-9C5D-B8B972C9C10A</string>
+	<string>451D7266-C86C-4C24-8E8D-4E4F0CAA3FC5</string>
 </dict>
 </plist>
