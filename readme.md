@@ -16,6 +16,9 @@ Works with TextMate 1.5 < 2
 
 
 # Change Log
+### 2014-06-13
+- `if` : inline for Erb / Ruby template
+
 ### 2013-06-22
 - `cfor` : "content_for" Sinatra/Erb template
 
