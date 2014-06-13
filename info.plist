@@ -136,6 +136,7 @@
 					<string>29FC82F8-FF50-41C7-9E4B-391D917CC307</string>
 					<string>1B0DA2E8-A1FC-4E18-9D98-BAA9FA0AD05D</string>
 					<string>A07021BB-E33D-49B4-B95E-8945FF1680EF</string>
+					<string>AAF24F6A-68F0-4CA3-9C7B-34C92D6C423D</string>
 				</array>
 				<key>name</key>
 				<string>Ruby</string>
@@ -624,6 +625,7 @@
 		<string>29FC82F8-FF50-41C7-9E4B-391D917CC307</string>
 		<string>A07021BB-E33D-49B4-B95E-8945FF1680EF</string>
 		<string>1B0DA2E8-A1FC-4E18-9D98-BAA9FA0AD05D</string>
+		<string>AAF24F6A-68F0-4CA3-9C7B-34C92D6C423D</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
