@@ -16,6 +16,9 @@ Works with TextMate 1.5 < 2
 
 
 # Change Log
+### 2014-07-01
+- `cmd+b` and `cmd+i` : for Json/Markdown
+
 ### 2014-06-13
 - `if` : inline for Erb / Ruby template
 - `each` : each iterator for Erb / Ruby template
