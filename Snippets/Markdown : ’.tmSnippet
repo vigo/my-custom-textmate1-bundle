@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Markdown : ’</string>
 	<key>scope</key>
-	<string>text.html.markdown</string>
+	<string>text.html.markdown,source.json</string>
 	<key>tabTrigger</key>
 	<string>rb</string>
 	<key>uuid</key>
