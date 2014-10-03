@@ -5,36 +5,35 @@
 	<key>content</key>
 	<string>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
-    &lt;head&gt;
-        &lt;meta charset="utf-8"&gt;
-        &lt;title&gt;&lt;/title&gt;
-        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-        &lt;meta name="description" content=""&gt;
-        &lt;meta name="author" content=""&gt;
-        
-        &lt;!-- Styles --&gt;
-        &lt;link href="styles.css" rel="stylesheet" /&gt;
-        
-        &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt;
-        &lt;!--[if lt IE 9]&gt;
-        &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
-        &lt;![endif]--&gt;
-        
-        &lt;!-- Le fav and touch icons --&gt;
-        &lt;!-- &lt;link rel="shortcut icon" href="favicon.ico"&gt; --&gt;
-        &lt;!-- &lt;link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114-precomposed.png"&gt; --&gt;
-        &lt;!-- &lt;link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72-precomposed.png"&gt; --&gt;
-        &lt;!-- &lt;link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57-precomposed.png"&gt; --&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        $0
-        &lt;!-- Le javascript --&gt;
-        &lt;!-- script src="jquery.js"&gt;&lt;/script --&gt;
-        
-        &lt;!-- Analytics --&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</string>
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;Hello&lt;/title&gt;
+    &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"&gt;
+    &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+    &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+    &lt;!--[if lt IE 9]&gt;
+        &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div class="block"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-xs-12"&gt;
+                    &lt;h1&gt;Hello World&lt;/h1&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
 	<key>name</key>
 	<string>HTML5: Base Snippet</string>
 	<key>tabTrigger</key>
