@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>ERB: print</string>
 	<key>scope</key>
-	<string>text.html.ruby</string>
+	<string>text.html.ruby,text.html.markdown</string>
 	<key>tabTrigger</key>
 	<string>=</string>
 	<key>uuid</key>
