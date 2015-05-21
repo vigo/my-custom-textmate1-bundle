@@ -13,9 +13,13 @@ Works with TextMate 1.5 < 2
     git clone git://github.com/vigo/my-custom-textmate1-bundle.git
     osascript -e 'tell app "TextMate" to reload bundles'
 
-
-
 # Change Log
+
+### 2015-05-21
+
+- Liquid variable print `=`
+- Erb: `code` (*MiddleMan helper*)
+
 ### 2014-07-01
 - `cmd+b` and `cmd+i` : for Json/Markdown
 

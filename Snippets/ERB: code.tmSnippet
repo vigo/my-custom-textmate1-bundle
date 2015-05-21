@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;% code("${1:ruby}") do %&gt;
+$0
+&lt;% end %&gt;</string>
+	<key>name</key>
+	<string>ERB: code</string>
+	<key>scope</key>
+	<string>text.html.ruby,text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>code</string>
+	<key>uuid</key>
+	<string>453C8F2D-97A7-47DA-A2B0-609555176B71</string>
+</dict>
+</plist>

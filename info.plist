@@ -9,6 +9,7 @@
 			<string>------------------------------------</string>
 			<string>C8D4A818-4073-4C6D-BA83-AA466DBA7DD2</string>
 			<string>A6A2E4D0-AB5A-44C7-A2B0-944A16EDC649</string>
+			<string>09B3C31F-E499-4ACE-9EDA-FEF39D23E5CF</string>
 			<string>------------------------------------</string>
 			<string>DF9A4DD9-7F22-4940-AA1D-DFF6AC2F5953</string>
 			<string>------------------------------------</string>
@@ -38,6 +39,13 @@
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>09B3C31F-E499-4ACE-9EDA-FEF39D23E5CF</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Liquid</string>
+			</dict>
 			<key>0D0FCFAE-C5B0-47B1-83BA-1A9069512459</key>
 			<dict>
 				<key>items</key>
@@ -628,11 +636,13 @@
 		<string>D1E3C6D2-1579-4839-8A7A-0F00F4E5EA32</string>
 		<string>5F611253-6929-473C-84A0-05E1CF01736C</string>
 		<string>8C67CC72-049D-4286-A9E4-4BC9A8BCEC3A</string>
+		<string>453C8F2D-97A7-47DA-A2B0-609555176B71</string>
 		<string>29FC82F8-FF50-41C7-9E4B-391D917CC307</string>
 		<string>A07021BB-E33D-49B4-B95E-8945FF1680EF</string>
 		<string>1B0DA2E8-A1FC-4E18-9D98-BAA9FA0AD05D</string>
 		<string>AAF24F6A-68F0-4CA3-9C7B-34C92D6C423D</string>
 		<string>61020D56-C41B-49F0-B2AD-BEB16791D6CA</string>
+		<string>79A82FA6-1A52-4C97-A3F2-7601626A0BE6</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>

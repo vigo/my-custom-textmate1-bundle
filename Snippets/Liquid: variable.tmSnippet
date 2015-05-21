@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{ ${1:variable} }}$0</string>
+	<key>name</key>
+	<string>Liquid: variable</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown,text.html.liquid
+punctuation.definition.tag.html
+meta.scope.between-tag-pair.html
+text.html.liquid
+meta.tag.any.html
+punctuation.definition.tag.html
+meta.scope.between-tag-pair.html
+text.html.liquid
+meta.tag.any.html
+punctuation.definition.tag.html
+meta.scope.between-tag-pair.html
+text.html.liquid
+text.html.liquid
+text.html.liquid</string>
+	<key>tabTrigger</key>
+	<string>=</string>
+	<key>uuid</key>
+	<string>79A82FA6-1A52-4C97-A3F2-7601626A0BE6</string>
+</dict>
+</plist>
