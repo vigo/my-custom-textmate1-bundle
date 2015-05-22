@@ -42,7 +42,9 @@
 			<key>09B3C31F-E499-4ACE-9EDA-FEF39D23E5CF</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>79A82FA6-1A52-4C97-A3F2-7601626A0BE6</string>
+				</array>
 				<key>name</key>
 				<string>Liquid</string>
 			</dict>
@@ -145,6 +147,7 @@
 					<string>1B0DA2E8-A1FC-4E18-9D98-BAA9FA0AD05D</string>
 					<string>A07021BB-E33D-49B4-B95E-8945FF1680EF</string>
 					<string>AAF24F6A-68F0-4CA3-9C7B-34C92D6C423D</string>
+					<string>453C8F2D-97A7-47DA-A2B0-609555176B71</string>
 				</array>
 				<key>name</key>
 				<string>Ruby</string>

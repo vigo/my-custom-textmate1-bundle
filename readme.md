@@ -1,9 +1,9 @@
 # Info
 
-Author: [Uğur Özyılmazel][1]  
-Email: [ugur@ozyilmazel.com][2]  
-Twitter: [@ugurozyilmazel][3]
-         [@vigobronx][4]
+|||
+| ------------- | -------------------- |
+| Author        | [Uğur Özyılmazel][1] |
+| Twitter       | [@vigobronx][4]      |
 
 ## Install
 
@@ -62,8 +62,8 @@ Works with TextMate 1.5 < 2
 - `alt+shift+2` : ’ for markdown
 
 ### 2013-01-10
-- `shift+cmd+b` : <small> + <span>
-- `opt+shift+cmd+c`: <code>
+- `shift+cmd+b` : `<small> + <span>`
+- `opt+shift+cmd+c`: `<code>`
 
 ### 2012-12-19
 - `del` : Css and Bash comment delimeter
