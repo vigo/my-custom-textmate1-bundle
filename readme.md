@@ -20,6 +20,10 @@ Works with TextMate 1.5 < 2
 - Liquid variable print `=`
 - Erb: `code` (*MiddleMan helper*)
 
+### 2015-05-14
+
+- Smart single quote for yaml
+
 ### 2014-07-01
 - `cmd+b` and `cmd+i` : for Json/Markdown
 
