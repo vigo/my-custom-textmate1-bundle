@@ -15,6 +15,10 @@ Works with TextMate 1.5 < 2
 
 # Change Log
 
+### 2015-06-29
+
+* `html5` snipped updated to use latest bootstrap.
+
 ### 2015-05-21
 
 - Liquid variable print `=`

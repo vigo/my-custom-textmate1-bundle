@@ -8,6 +8,8 @@
 	<string>~'</string>
 	<key>name</key>
 	<string>Markdown : ’</string>
+	<key>scope</key>
+	<string>text.html.markdown,text.plain,source.yaml</string>
 	<key>tabTrigger</key>
 	<string>rb</string>
 	<key>uuid</key>
