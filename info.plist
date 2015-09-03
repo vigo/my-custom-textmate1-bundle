@@ -141,6 +141,8 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>813B87AE-F185-4B24-8403-46925254B046</string>
+					<string>------------------------------------</string>
 					<string>D5415919-9BEF-4F61-8B10-66184B5E224E</string>
 					<string>8C67CC72-049D-4286-A9E4-4BC9A8BCEC3A</string>
 					<string>29FC82F8-FF50-41C7-9E4B-391D917CC307</string>
@@ -291,6 +293,17 @@
 				</array>
 				<key>name</key>
 				<string>Python Test</string>
+			</dict>
+			<key>813B87AE-F185-4B24-8403-46925254B046</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>43913B75-B20D-4EA2-AC11-D43B3EA6C568</string>
+					<string>89B8718B-3459-4BAB-AF7F-F57087323EE9</string>
+					<string>464FE203-F638-46D7-96E3-053A71861E1A</string>
+				</array>
+				<key>name</key>
+				<string>Rake</string>
 			</dict>
 			<key>909B5073-667E-40A2-A747-8DC4E58EECF9</key>
 			<dict>
@@ -646,6 +659,9 @@
 		<string>AAF24F6A-68F0-4CA3-9C7B-34C92D6C423D</string>
 		<string>61020D56-C41B-49F0-B2AD-BEB16791D6CA</string>
 		<string>79A82FA6-1A52-4C97-A3F2-7601626A0BE6</string>
+		<string>43913B75-B20D-4EA2-AC11-D43B3EA6C568</string>
+		<string>89B8718B-3459-4BAB-AF7F-F57087323EE9</string>
+		<string>464FE203-F638-46D7-96E3-053A71861E1A</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>
