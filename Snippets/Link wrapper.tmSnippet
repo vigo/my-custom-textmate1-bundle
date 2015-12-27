@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>&lt;a href="${1:$TM_SELECTED_TEXT}"${2: title="${3:title}"}&gt;$TM_SELECTED_TEXT&lt;/a&gt;$0</string>
 	<key>keyEquivalent</key>
-	<string>@L</string>
+	<string>^@l</string>
 	<key>name</key>
 	<string>Link wrapper</string>
 	<key>uuid</key>

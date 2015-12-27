@@ -21,11 +21,9 @@
 # to test individual method(s) add:
 # TEST = method_name
 
-python "${TM_BUNDLE_SUPPORT}/django_run_tests/run_test.py"</string>
+# python "${TM_BUNDLE_SUPPORT}/django_run_tests/run_test.py"</string>
 	<key>input</key>
 	<string>none</string>
-	<key>keyEquivalent</key>
-	<string>@r</string>
 	<key>name</key>
 	<string>DJANGO : Run Test</string>
 	<key>output</key>
