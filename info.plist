@@ -338,6 +338,8 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>C75DEC43-1D23-46E5-8AFE-1A730341C60A</string>
+					<string>DBAAEFCA-4B42-4E99-A140-168DC3C8689F</string>
 					<string>F74A6E44-4E3D-4D5D-95B5-CB768D4CEE38</string>
 					<string>3672BB7E-636F-406A-81AF-9A90F56C52CE</string>
 				</array>
@@ -440,6 +442,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>F3E980AC-789B-46A9-92F9-73BF7A6A3CAD</string>
 					<string>C39B0132-D950-4460-882A-B93BC67A3F21</string>
 					<string>61020D56-C41B-49F0-B2AD-BEB16791D6CA</string>
 					<string>BFD0B8C9-BED8-4A73-9C8A-11C22424C02E</string>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>env|grep ^TM_|sort</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Show TM_ Variables</string>
+	<key>output</key>
+	<string>openAsNewDocument</string>
+	<key>uuid</key>
+	<string>C75DEC43-1D23-46E5-8AFE-1A730341C60A</string>
+</dict>
+</plist>
