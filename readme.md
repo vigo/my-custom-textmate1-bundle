@@ -10,7 +10,7 @@
 Works with TextMate 1.5 < 2
 
     cd "~/Library/Application Support/TextMate/Bundles"
-    git clone git://github.com/vigo/my-custom-textmate1-bundle.git
+    git clone git://github.com/vigo/my-custom-textmate1-bundle.git custom-textmate1-bundle.tmbundle
     osascript -e 'tell app "TextMate" to reload bundles'
 
 # Change Log
