@@ -20,6 +20,6 @@ This log is moved to [here](CHANGELOG.md).
 
 ## License
 
-This project licensed under MIT.
+This project is licensed under MIT.
 
 [01]: http://ugur.ozyilmazel.com "Official Homepage"
