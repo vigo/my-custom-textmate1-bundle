@@ -1,5 +1,13 @@
 # Change Log
 
+**2016-05-02**
+
+* Golang runner added `cmd+r` in go scope
+* JavaScript runner added `cmd+r`. Requires Node + `TM_NODE`
+* Remoted "hosts" config/prefs. Now it is independent bundle
+* Added Golang snippets: `fmt`, `init`
+* Updated HTML5 base snippet
+
 **2016-03-20**
 
 * `README.md` summarized

@@ -36,6 +36,8 @@
 			<string>------------------------------------</string>
 			<string>BA891265-AFA4-4445-81A3-38185A1962EE</string>
 			<string>------------------------------------</string>
+			<string>5B13279E-BEEC-4DC9-92CA-0A676950008B</string>
+			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -191,6 +193,17 @@
 				</array>
 				<key>name</key>
 				<string>console</string>
+			</dict>
+			<key>5B13279E-BEEC-4DC9-92CA-0A676950008B</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>1ABD347D-026C-454D-A26E-4A2F310D1391</string>
+					<string>994B978D-7915-435B-B808-33F84BD26C2B</string>
+					<string>FE387351-3BD7-4960-AE22-431D6A92BFC5</string>
+				</array>
+				<key>name</key>
+				<string>GO</string>
 			</dict>
 			<key>5E224102-15B3-4BA8-AF5B-EC3CB4F5EDF1</key>
 			<dict>
@@ -426,6 +439,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>26A36DA1-CA74-4A03-A8A4-E5ECD3CA73BC</string>
 					<string>C0A68D53-397B-4AE4-BD1A-A9392DCBF0A5</string>
 					<string>5AF04B88-6814-4D75-AD44-5E87F90B75AC</string>
 					<string>F207078D-1311-4696-80C3-38B8E40A845A</string>
@@ -473,8 +487,6 @@
 	<string>Uğur "vigo" Özyılmazel - Custom Bundles</string>
 	<key>ordering</key>
 	<array>
-		<string>6CDFD93D-9DF1-4F05-A9D1-77EDBB4F0B75</string>
-		<string>4F3EE828-D229-4FE6-885C-752D67FD126C</string>
 		<string>3BA49C49-A629-4134-8B13-591E6BADEDA8</string>
 		<string>DD130433-33BA-4C8A-ACBF-D496D0481AF3</string>
 		<string>307B5B9F-EA0C-4B34-B573-263E1D894C35</string>
@@ -503,6 +515,7 @@
 		<string>02E9E52B-DC6B-4300-B717-78E6DD106A57</string>
 		<string>4ADC0B38-92D8-47C5-B5CB-1FE3673ACB20</string>
 		<string>A49A287A-C999-456B-BB81-51372F21181C</string>
+		<string>26A36DA1-CA74-4A03-A8A4-E5ECD3CA73BC</string>
 		<string>4FD466B5-5760-4E9E-B337-B11237091591</string>
 		<string>D9922540-9749-4D41-83A1-60AC3EDCE7BD</string>
 		<string>C4D6A506-9A46-4ABC-B344-5FBEB54787BB</string>
@@ -666,6 +679,11 @@
 		<string>43913B75-B20D-4EA2-AC11-D43B3EA6C568</string>
 		<string>89B8718B-3459-4BAB-AF7F-F57087323EE9</string>
 		<string>464FE203-F638-46D7-96E3-053A71861E1A</string>
+		<string>1ABD347D-026C-454D-A26E-4A2F310D1391</string>
+		<string>994B978D-7915-435B-B808-33F84BD26C2B</string>
+		<string>FE387351-3BD7-4960-AE22-431D6A92BFC5</string>
+		<string>DBAAEFCA-4B42-4E99-A140-168DC3C8689F</string>
+		<string>C75DEC43-1D23-46E5-8AFE-1A730341C60A</string>
 	</array>
 	<key>uuid</key>
 	<string>159E3F57-8C3D-42EA-8AFF-3819721402BD</string>

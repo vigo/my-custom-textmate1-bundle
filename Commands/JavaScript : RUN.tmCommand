@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+
+html_header "Running JavaScript" "${TM_FILENAME}"
+
+if [[ $TM_NODE ]]; then
+    INPUT=$(cat /dev/stdin)
+	$TM_NODE -e "${INPUT}"|pre
+else
+    echo "You must define \$TM_NODE variable"|pre
+fi
+
+html_footer
+
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>JavaScript : RUN</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>26A36DA1-CA74-4A03-A8A4-E5ECD3CA73BC</string>
+</dict>
+</plist>

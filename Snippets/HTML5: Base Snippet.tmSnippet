@@ -17,6 +17,12 @@
             &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
             &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
         &lt;![endif]--&gt;
+        &lt;style type="text/css" media="screen"&gt;
+            @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext);
+            body {
+                font-family: 'Merriweather', serif;
+            }
+        &lt;/style&gt;
     &lt;/head&gt;
     &lt;body&gt;
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello World")
+}</string>
+	<key>name</key>
+	<string>GO : Init</string>
+	<key>scope</key>
+	<string>source.go</string>
+	<key>tabTrigger</key>
+	<string>init</string>
+	<key>uuid</key>
+	<string>994B978D-7915-435B-B808-33F84BD26C2B</string>
+</dict>
+</plist>

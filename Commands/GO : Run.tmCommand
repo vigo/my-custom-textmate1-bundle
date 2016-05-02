@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>export PATH="${GOPATH}:/usr/local/bin:${PATH}"
+gofmt -w $TM_FILEPATH
+
+. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+
+html_header "Run Go..."
+echo "&lt;pre&gt;$(go run $TM_FILEPATH)&lt;/pre&gt;"
+html_footer</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>GO : Run</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.go</string>
+	<key>uuid</key>
+	<string>1ABD347D-026C-454D-A26E-4A2F310D1391</string>
+</dict>
+</plist>
