@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+        &lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
+        &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"&gt;
+        &lt;style type="text/css" media="screen"&gt;
+            html {
+                font-size: 1.2rem;
+            }
+            @media (min-width: 34em) {
+                html {
+                    font-size: 1.4rem;
+                }
+            }
+            @media (min-width: 48em)  {
+                html {
+                    font-size: 1.4rem;
+                }
+            }
+            @media (min-width: 62em) {
+                html {
+                    font-size: 1.4rem;
+                }
+            }
+            @media (min-width: 75em) {
+                html {
+                    font-size: 1.4rem;
+                }
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+        &lt;div class="container"&gt;
+            &lt;div class="jumbotron"&gt;
+                &lt;h1 class="display-3 text-lg-center"&gt;Hello, world!&lt;/h1&gt;
+                &lt;p class="lead"&gt;
+                    This is a simple hero unit, a simple jumbotron-style component for calling 
+                    extra attention to featured content or information.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;p&gt;Terminal’i her açtığımızda ya da ssh ile uzaktaki makineye her bağlanızda, aslında, ~/.bash_profile dosyası bizi karşılıyor.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"&gt;&lt;/script&gt;
+        &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</string>
+	<key>name</key>
+	<string>HTML5: Base Snippet - BS4 - Example</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>html5</string>
+	<key>uuid</key>
+	<string>C80BD2E6-E66B-4F73-83CB-EB8A5132C80F</string>
+</dict>
+</plist>

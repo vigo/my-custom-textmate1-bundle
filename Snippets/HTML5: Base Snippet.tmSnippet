@@ -42,6 +42,8 @@
 &lt;/html&gt;</string>
 	<key>name</key>
 	<string>HTML5: Base Snippet</string>
+	<key>scope</key>
+	<string>text.html</string>
 	<key>tabTrigger</key>
 	<string>html5</string>
 	<key>uuid</key>
