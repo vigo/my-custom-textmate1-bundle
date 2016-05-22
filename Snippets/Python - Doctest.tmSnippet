@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>import doctest
+
+def squared(num):
+    """
+    
+    &gt;&gt;&gt; squared(5)
+    25
+    """
+    return num ** 2
+
+doctest.testmod()
+</string>
+	<key>name</key>
+	<string>Python - Doctest</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>pydoc</string>
+	<key>uuid</key>
+	<string>704C6A03-AF6F-4BFC-AD9E-2B63A0267494</string>
+</dict>
+</plist>
