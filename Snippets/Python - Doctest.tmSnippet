@@ -16,7 +16,7 @@ def squared(num):
 doctest.testmod()
 </string>
 	<key>name</key>
-	<string>Python - Doctest</string>
+	<string>PYTHON : Doctest</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
