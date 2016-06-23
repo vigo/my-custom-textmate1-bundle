@@ -8,6 +8,8 @@
 	<string>~'</string>
 	<key>name</key>
 	<string>Apostrof : ’</string>
+	<key>scope</key>
+	<string>text.plain,text.html.markdown</string>
 	<key>tabTrigger</key>
 	<string>rb</string>
 	<key>uuid</key>
